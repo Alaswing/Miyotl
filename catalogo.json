@@ -2,7 +2,7 @@
   {
     "id": "102001",
     "nombre": "Abre Caminos",
-    "img": "Assets/Images/Abre_caminos.jpg",
+    "img": "Assets/Images/Abre_caminos.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -23,7 +23,7 @@
   {
     "id": "102002",
     "nombre": "Albahaca",
-    "img": "Assets/Images/Albahaca.jpg",
+    "img": "Assets/Images/Albahaca.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -46,7 +46,7 @@
   {
     "id": "102003",
     "nombre": "Almendras",
-    "img": "Assets/Images/Almendras.jpg",
+    "img": "Assets/Images/Almendras.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -69,7 +69,7 @@
   {
     "id": "102004",
     "nombre": "Almendras y avena",
-    "img": "Assets/Images/Almendras_avena.jpg",
+    "img": "Assets/Images/Almendras_avena.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -92,7 +92,7 @@
   {
     "id": "102005",
     "nombre": "Aloe Vera",
-    "img": "Assets/Images/Aloe_vera.jpg",
+    "img": "Assets/Images/Aloe_vera.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -114,7 +114,7 @@
   {
     "id": "102006",
     "nombre": "Aloe vera y acido hialurónico",
-    "img": "Assets/Images/Aloe_vera_acido_hialuronico.jpg",
+    "img": "Assets/Images/Aloe_vera_acido_hialuronico.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -136,7 +136,7 @@
   {
     "id": "102007",
     "nombre": "Anti acné salicílico y aloe vera",
-    "img": "Assets/Images/Anti-acne_aloe_vera.jpg",
+    "img": "Assets/Images/Anti-acne_aloe_vera.webp",
     "cats": [
       "Astringente"
     ],
@@ -159,7 +159,7 @@
   {
     "id": "102008",
     "nombre": "Arándanos",
-    "img": "Assets/Images/Arandanos.jpg",
+    "img": "Assets/Images/Arandanos.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -182,7 +182,7 @@
   {
     "id": "102009",
     "nombre": "Árnica",
-    "img": "Assets/Images/Arnica.jpg",
+    "img": "Assets/Images/Arnica.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -205,7 +205,7 @@
   {
     "id": "102010",
     "nombre": "Arroz",
-    "img": "Assets/Images/Arroz.jpg",
+    "img": "Assets/Images/Arroz.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -227,7 +227,7 @@
   {
     "id": "102011",
     "nombre": "Arroz con aloe vera",
-    "img": "Assets/Images/Arroz_aloe_vera.jpg",
+    "img": "Assets/Images/Arroz_aloe_vera.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -249,7 +249,7 @@
   {
     "id": "102012",
     "nombre": "Avena miel",
-    "img": "Assets/Images/Avena_miel.jpg",
+    "img": "Assets/Images/Avena_miel.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -272,7 +272,7 @@
   {
     "id": "102013",
     "nombre": "Avena para bebe",
-    "img": "Assets/Images/Avena_bebe.jpg",
+    "img": "Assets/Images/Avena_bebe.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -295,7 +295,7 @@
   {
     "id": "102014",
     "nombre": "Bergamota",
-    "img": "Assets/Images/Bergamota.jpg",
+    "img": "Assets/Images/Bergamota.webp",
     "cats": [
       "Astringente"
     ],
@@ -318,7 +318,7 @@
   {
     "id": "102015",
     "nombre": "Café",
-    "img": "Assets/Images/Cafe.jpg",
+    "img": "Assets/Images/Cafe.webp",
     "cats": [
       "Exfoliante"
     ],
@@ -341,7 +341,7 @@
   {
     "id": "102016",
     "nombre": "Caléndula",
-    "img": "Assets/Images/Calendula.jpg",
+    "img": "Assets/Images/Calendula.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -363,7 +363,7 @@
   {
     "id": "102017",
     "nombre": "Canela",
-    "img": "Assets/Images/Canela.jpg",
+    "img": "Assets/Images/Canela.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -386,7 +386,7 @@
   {
     "id": "102018",
     "nombre": "Carbón activado",
-    "img": "Assets/Images/Carbon_Activado.jpg",
+    "img": "Assets/Images/Carbon_Activado.webp",
     "cats": [
       "Astringente"
     ],
@@ -409,7 +409,7 @@
   {
     "id": "102019",
     "nombre": "CBD",
-    "img": "Assets/Images/CBD.jpg",
+    "img": "Assets/Images/CBD.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -431,7 +431,7 @@
   {
     "id": "102020",
     "nombre": "Chocolate",
-    "img": "Assets/Images/Chocolate.jpg",
+    "img": "Assets/Images/Chocolate.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -454,7 +454,7 @@
   {
     "id": "102021",
     "nombre": "Cítricos",
-    "img": "Assets/Images/Citricos.jpg",
+    "img": "Assets/Images/Citricos.webp",
     "cats": [
       "Astringente"
     ],
@@ -477,7 +477,7 @@
   {
     "id": "102022",
     "nombre": "Coco",
-    "img": "Assets/Images/Coco.jpg",
+    "img": "Assets/Images/Coco.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -500,7 +500,7 @@
   {
     "id": "102023",
     "nombre": "Concha nacar",
-    "img": "Assets/Images/Concha_nacar.jpg",
+    "img": "Assets/Images/Concha_nacar.webp",
     "cats": [
       "Exfoliante"
     ],
@@ -523,7 +523,7 @@
   {
     "id": "102024",
     "nombre": "Glicerina con Leche",
-    "img": "Assets/Images/Piel_diabetica.jpg",
+    "img": "Assets/Images/Piel_diabetica.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -546,7 +546,7 @@
   {
     "id": "102025",
     "nombre": "Glicerina",
-    "img": "Assets/Images/Almendras.jpg",
+    "img": "Assets/Images/Almendras.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -568,7 +568,7 @@
   {
     "id": "102026",
     "nombre": "Lavanda",
-    "img": "Assets/Images/Lavanda.jpg",
+    "img": "Assets/Images/Lavanda.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -591,7 +591,7 @@
   {
     "id": "102027",
     "nombre": "Limón",
-    "img": "Assets/Images/Aloe_vera.jpg",
+    "img": "Assets/Images/Aloe_vera.webp",
     "cats": [
       "Astringente"
     ],
@@ -614,7 +614,7 @@
   {
     "id": "102028",
     "nombre": "Manzana y canela",
-    "img": "Assets/Images/Manzana_canela.jpg",
+    "img": "Assets/Images/Manzana_canela.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -637,7 +637,7 @@
   {
     "id": "102029",
     "nombre": "Manzanilla",
-    "img": "Assets/Images/Manzanilla.jpg",
+    "img": "Assets/Images/Manzanilla.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -659,7 +659,7 @@
   {
     "id": "102032",
     "nombre": "Miel",
-    "img": "Assets/Images/Miel.jpg",
+    "img": "Assets/Images/Miel.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -682,7 +682,7 @@
   {
     "id": "102033",
     "nombre": "Romero",
-    "img": "Assets/Images/Romero.jpg",
+    "img": "Assets/Images/Romero.webp",
     "cats": [
       "Astringente"
     ],
@@ -705,7 +705,7 @@
   {
     "id": "102034",
     "nombre": "Romero y sándalo",
-    "img": "Assets/Images/Romero_Sandalo.jpg",
+    "img": "Assets/Images/Romero_Sandalo.webp",
     "cats": [
       "Astringente"
     ],
@@ -728,7 +728,7 @@
   {
     "id": "102035",
     "nombre": "Romero, sándalo y castaña de indias",
-    "img": "Assets/Images/Romero_Sandalo.jpg",
+    "img": "Assets/Images/Romero_Sandalo.webp",
     "cats": [
       "Astringente"
     ],
@@ -751,7 +751,7 @@
   {
     "id": "102036",
     "nombre": "Rosa de Castilla",
-    "img": "Assets/Images/Rosa_castilla.jpg",
+    "img": "Assets/Images/Rosa_castilla.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -774,7 +774,7 @@
   {
     "id": "102037",
     "nombre": "Ruda",
-    "img": "Assets/Images/Ruda.jpg",
+    "img": "Assets/Images/Ruda.webp",
     "cats": [
       "Astringente"
     ],
@@ -796,7 +796,7 @@
   {
     "id": "102038",
     "nombre": "Sándalo",
-    "img": "Assets/Images/Romero_Sandalo.jpg",
+    "img": "Assets/Images/Romero_Sandalo.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -819,7 +819,7 @@
   {
     "id": "102039",
     "nombre": "Tepezcohuite",
-    "img": "Assets/Images/Tepezcohuite.jpg",
+    "img": "Assets/Images/Tepezcohuite.webp",
     "cats": [
       "Astringente"
     ],
@@ -842,7 +842,7 @@
   {
     "id": "102040",
     "nombre": "Toronja y romero",
-    "img": "Assets/Images/Citricos.jpg",
+    "img": "Assets/Images/Citricos.webp",
     "cats": [
       "Astringente"
     ],
@@ -865,7 +865,7 @@
   {
     "id": "102041",
     "nombre": "Vainilla",
-    "img": "Assets/Images/Vainilla.jpg",
+    "img": "Assets/Images/Vainilla.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -888,7 +888,7 @@
   {
     "id": "102042",
     "nombre": "Vino tinto y rosas",
-    "img": "Assets/Images/Vino_tinto_rosas.jpg",
+    "img": "Assets/Images/Vino_tinto_rosas.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -911,7 +911,7 @@
   {
     "id": "102043",
     "nombre": "Vitamina E",
-    "img": "Assets/Images/Vitamina_e.jpg",
+    "img": "Assets/Images/Vitamina_e.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -933,7 +933,7 @@
   {
     "id": "102044",
     "nombre": "Abre Caminos con miel",
-    "img": "Assets/Images/Abre_caminos.jpg",
+    "img": "Assets/Images/Abre_caminos.webp",
     "cats": [
       "Astringente"
     ],
@@ -956,7 +956,7 @@
   {
     "id": "102045",
     "nombre": "Aloe vera y árnica",
-    "img": "Assets/Images/Aloe_vera.jpg",
+    "img": "Assets/Images/Aloe_vera.webp",
     "cats": [
       "Astringente"
     ],
@@ -978,7 +978,7 @@
   {
     "id": "102046",
     "nombre": "Aloe vera y miel",
-    "img": "Assets/Images/Aloe_vera.jpg",
+    "img": "Assets/Images/Aloe_vera.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1001,7 +1001,7 @@
   {
     "id": "102047",
     "nombre": "Aloe vera con Vitamina E",
-    "img": "Assets/Images/Aloe_vera.jpg",
+    "img": "Assets/Images/Aloe_vera.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -1023,7 +1023,7 @@
   {
     "id": "102048",
     "nombre": "Árnica y Vitamina E",
-    "img": "Assets/Images/Vitamina_e.jpg",
+    "img": "Assets/Images/Vitamina_e.webp",
     "cats": [
       "Astringente"
     ],
@@ -1046,7 +1046,7 @@
   {
     "id": "102049",
     "nombre": "Arroz exfoliante",
-    "img": "Assets/Images/Exfoliante_arroz.jpg",
+    "img": "Assets/Images/Exfoliante_arroz.webp",
     "cats": [
       "Exfoliante"
     ],
@@ -1068,7 +1068,7 @@
   {
     "id": "102050",
     "nombre": "Azufre",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Exfoliante"
     ],
@@ -1091,7 +1091,7 @@
   {
     "id": "102051",
     "nombre": "Durazno",
-    "img": "Assets/Images/Durazno.jpg",
+    "img": "Assets/Images/Durazno.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1114,7 +1114,7 @@
   {
     "id": "102052",
     "nombre": "Eucalipto con Bugambilia y Menta",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1137,7 +1137,7 @@
   {
     "id": "102053",
     "nombre": "Gengibre con limón, curcuma y canela",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1160,7 +1160,7 @@
   {
     "id": "102054",
     "nombre": "Gengibre con naranja, curcuma y canela",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1183,7 +1183,7 @@
   {
     "id": "102055",
     "nombre": "Miel con canela",
-    "img": "Assets/Images/Miel_Canela.jpg",
+    "img": "Assets/Images/Miel_Canela.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1206,7 +1206,7 @@
   {
     "id": "102056",
     "nombre": "Miel con canela y pétalos de rosa",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Exfoliante"
     ],
@@ -1229,7 +1229,7 @@
   {
     "id": "102057",
     "nombre": "Neem",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Astringente"
     ],
@@ -1252,7 +1252,7 @@
   {
     "id": "102058",
     "nombre": "Neem con caléndula",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1275,7 +1275,7 @@
   {
     "id": "103003",
     "nombre": "Almendras",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1298,7 +1298,7 @@
   {
     "id": "103005",
     "nombre": "Aloe vera",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -1320,7 +1320,7 @@
   {
     "id": "103009",
     "nombre": "Árnica",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1343,7 +1343,7 @@
   {
     "id": "103059",
     "nombre": "Avena",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -1365,7 +1365,7 @@
   {
     "id": "103020",
     "nombre": "Chocolate",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1388,7 +1388,7 @@
   {
     "id": "103022",
     "nombre": "Coco",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1411,7 +1411,7 @@
   {
     "id": "103066",
     "nombre": "Coco con miel",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1434,7 +1434,7 @@
   {
     "id": "103069",
     "nombre": "Frutos rojos",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1457,7 +1457,7 @@
   {
     "id": "103027",
     "nombre": "Limón",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Astringente"
     ],
@@ -1480,7 +1480,7 @@
   {
     "id": "103029",
     "nombre": "Manzanilla",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -1502,7 +1502,7 @@
   {
     "id": "103032",
     "nombre": "Miel",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1525,7 +1525,7 @@
   {
     "id": "103036",
     "nombre": "Rosa de Castilla",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1548,7 +1548,7 @@
   {
     "id": "103033",
     "nombre": "Romero",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Astringente"
     ],
@@ -1571,7 +1571,7 @@
   {
     "id": "103041",
     "nombre": "Vainilla",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1594,7 +1594,7 @@
   {
     "id": "108001",
     "nombre": "Abre caminos",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1615,7 +1615,7 @@
   {
     "id": "108003",
     "nombre": "Almendras",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1638,7 +1638,7 @@
   {
     "id": "108005",
     "nombre": "Aloe Vera",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -1660,7 +1660,7 @@
   {
     "id": "108009",
     "nombre": "Árnica",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1683,7 +1683,7 @@
   {
     "id": "108013",
     "nombre": "Avena para bebe",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1706,7 +1706,7 @@
   {
     "id": "108012",
     "nombre": "Avena miel",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1729,7 +1729,7 @@
   {
     "id": "108020",
     "nombre": "Chocolate",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1752,7 +1752,7 @@
   {
     "id": "108022",
     "nombre": "Coco",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1775,7 +1775,7 @@
   {
     "id": "108066",
     "nombre": "Coco con miel",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1798,7 +1798,7 @@
   {
     "id": "108052",
     "nombre": "Eucalipto con Bugambilia y Menta",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1821,7 +1821,7 @@
   {
     "id": "108069",
     "nombre": "Frutos rojos",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1844,7 +1844,7 @@
   {
     "id": "108070",
     "nombre": "Jengibre con limón, cúrcuma y canela",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1867,7 +1867,7 @@
   {
     "id": "108026",
     "nombre": "Lavanda",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1890,7 +1890,7 @@
   {
     "id": "108027",
     "nombre": "Limón",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Astringente"
     ],
@@ -1913,7 +1913,7 @@
   {
     "id": "108029",
     "nombre": "Manzanilla",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -1935,7 +1935,7 @@
   {
     "id": "108032",
     "nombre": "Miel",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1958,7 +1958,7 @@
   {
     "id": "108058",
     "nombre": "Neem con caléndula",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1981,7 +1981,7 @@
   {
     "id": "108036",
     "nombre": "Rosa de Castilla",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -2004,7 +2004,7 @@
   {
     "id": "108033",
     "nombre": "Romero",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Astringente"
     ],
@@ -2027,7 +2027,7 @@
   {
     "id": "108041",
     "nombre": "Vainilla",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -2050,7 +2050,7 @@
   {
     "id": "108043",
     "nombre": "Vitamina E",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -2072,7 +2072,7 @@
   {
     "id": "102078",
     "nombre": "Cempasuchil",
-    "img": "Assets/Images/Img_ndisponible.jpg",
+    "img": "Assets/Images/Img_ndisponible.webp",
     "cats": [
       "Astringente"
     ],
@@ -2094,7 +2094,7 @@
   {
     "id": "102031",
     "nombre": "Menta",
-    "img": "Assets/Images/Menta.jpg",
+    "img": "Assets/Images/Menta.webp",
     "cats": [
       "Astringente"
     ],
