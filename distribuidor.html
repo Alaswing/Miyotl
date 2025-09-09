@@ -278,7 +278,7 @@ function clampHora(){
   colonia.value.trim() &&
   muni.value.trim() &&
   estado.value.trim() &&
-  esCP(cp.value) &&
+  esCP(cp.value.trim()) &&
   esTel(tel.value) &&
   esEmail(mail.value);
     const okChecks = okC.checked && okP.checked && okA.checked;
@@ -305,6 +305,9 @@ function clampHora(){
   // Eventos
   f.addEventListener('input', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
   f.addEventListener('change', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
+  f.querySelectorAll('input[name="modalidad"]').forEach(r=>{
+  r.addEventListener('change', ()=>{ estadoBtnCita(); });
+});
   hora.addEventListener('input', ()=>{ clampHora(); estadoBtnEnviar(); });
 hora.addEventListener('change', ()=>{ clampHora(); estadoBtnEnviar(); });
 fecha.addEventListener('change', ()=>{ estadoBtnEnviar(); });
