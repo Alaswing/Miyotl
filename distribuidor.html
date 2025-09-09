@@ -106,9 +106,10 @@
         <!-- Selección única de variante -->
         <fieldset style="border:1px solid var(--brand-200);border-radius:12px;padding:12px;margin:0 0 12px">
           <legend style="padding:0 6px">Elige el que mejor se ajuste a ti</legend>
-          <label style="display:block;margin:6px 0"><input type="radio" name="modalidad" value="Concesionario"> Concesionario</label>
-          <label style="display:block;margin:6px 0"><input type="radio" name="modalidad" value="Mayorista"> Mayorista</label>
-          <label style="display:block;margin:6px 0"><input type="radio" name="modalidad" value="Distribuidor"> Distribuidor</label>
+			<label><input type="radio" name="modalidad" value="Concesionario" required> Concesionario</label>
+			<label><input type="radio" name="modalidad" value="Mayorista"> Mayorista</label>
+			<label><input type="radio" name="modalidad" value="Distribuidor"> Distribuidor</label>
+
         </fieldset>
 
         <!-- Datos del establecimiento -->
@@ -165,26 +166,24 @@
           <label><input type="checkbox" id="ok-aviso"> He leído el <a href="aviso.html" target="_self">aviso de privacidad</a> y estoy de acuerdo.</label>
         </div>
 
-        <!-- Botón que habilita calendario -->
-        <div style="text-align:center;margin:14px 0">
-          <button id="btn-cita" type="button" class="btn" disabled
-                  style="appearance:none;border:1px solid #A83477;background:var(--miyotl);color:#fff;padding:10px 14px;border-radius:12px;font-weight:700;cursor:not-allowed">
-            Agendar cita
-          </button>
-        </div>
+        <!-- Agendar cita -->
+<h3 style="text-align:center;margin:16px 0 6px">Agendar cita</h3>
+<div id="cita-wrap" style="display:block">
+  <div style="display:grid;gap:10px;grid-template-columns:1fr 1fr;max-width:520px;margin:0 auto">
+    <label>Fecha (día hábil)
+      <input type="date" id="fecha" required
+             style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+    </label>
+    <label>Hora (9:00–14:00)
+      <input type="time" id="hora" required min="09:00" max="14:00" step="900"
+             style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+    </label>
+  </div>
+  <p class="muted" style="text-align:center;margin:8px 0 0">
+    Elige un día hábil a partir de mañana y hasta 2 semanas.
+  </p>
+</div>
 
-        <!-- Calendario y hora (se habilitan al pulsar Agendar cita) -->
-        <div id="cita-wrap" style="display:none">
-          <div style="display:grid;gap:10px;grid-template-columns:1fr 1fr;max-width:520px;margin:0 auto">
-            <label>Fecha (día hábil)
-              <input type="date" id="fecha" required disabled style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
-            </label>
-            <label>Hora (9:00–14:00)
-              <input type="time" id="hora" required min="09:00" max="14:00" step="900" disabled style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
-            </label>
-          </div>
-          <p class="muted" style="text-align:center;margin:8px 0 0">Agenda a partir del próximo día hábil y hasta 2 semanas.</p>
-        </div>
 
         <!-- Enviar -->
         <div style="text-align:center;margin:16px 0 0">
@@ -234,7 +233,6 @@ const cp     = document.getElementById('cp');
   const okP = document.getElementById('ok-politicas');
   const okA = document.getElementById('ok-aviso');
 
-  const btnCita   = document.getElementById('btn-cita');
   const citaWrap  = document.getElementById('cita-wrap');
   const fecha     = document.getElementById('fecha');
   const hora      = document.getElementById('hora');
@@ -267,122 +265,122 @@ function clampHora(){
   if(hora.value < '09:00') hora.value = '09:00';
   if(hora.value > '14:00') hora.value = '14:00';
 }
-  setRangoFecha();
+function validarTodo(){
+  // requisitos base (datos + modalidad)
+  const modalidad = f.querySelector('input[name="modalidad"]:checked');
+  const okDatos =
+    nombre.value.trim() &&
+    estab.value.trim() &&
+    calle.value.trim() &&
+    noext.value.trim() &&
+    colonia.value.trim() &&
+    muni.value.trim() &&
+    estado.value.trim() &&
+    esCP(cp.value.trim()) &&
+    esTel(tel.value) &&
+    esEmail(mail.value);
 
-  // Habilitar "Agendar cita": modalidad + datos + 3 checks
-  function estadoBtnCita(){
-    const modalidad = f.querySelector('input[name="modalidad"]:checked');
-    const okDatos =
-  nombre.value.trim() &&
-  estab.value.trim() &&
-  calle.value.trim() &&
-  noext.value.trim() &&
-  colonia.value.trim() &&
-  muni.value.trim() &&
-  estado.value.trim() &&
-  esCP(cp.value.trim()) &&
-  esTel(tel.value) &&
-  esEmail(mail.value);
-    const okChecks = okC.checked && okP.checked && okA.checked;
-    const listo = modalidad && okDatos && okChecks;
-    btnCita.disabled = !listo;
-    btnCita.style.cursor = listo ? 'pointer' : 'not-allowed';
-    btnCita.style.opacity = listo ? '1' : '.7';
+  // fecha/hora válidas
+  let okCita = false;
+  if (fecha.value && hora.value) {
+    const d   = new Date(`${fecha.value}T${hora.value}:00`);
+    const min = new Date(`${fecha.min}T00:00:00`);
+    const max = new Date(`${fecha.max}T23:59:59`);
+    okCita = d >= min && d <= max && esHabil(d) && hora.value >= '09:00' && hora.value <= '14:00';
   }
 
-  // Habilitar "Enviar": fecha/hora válidas, en rango y día hábil
-  function estadoBtnEnviar(){
-    let ok = false;
-    if(fecha.value && hora.value){
-      const d = new Date(`${fecha.value}T${hora.value}:00`);
-      const min = new Date(`${fecha.min}T00:00:00`);
-      const max = new Date(`${fecha.max}T23:59:59`);
-      ok = d>=min && d<=max && esHabil(d) && hora.value>='09:00' && hora.value<='14:00';
-    }
-    btnEnviar.disabled = !ok;
-    btnEnviar.style.cursor = ok ? 'pointer' : 'not-allowed';
-    btnEnviar.style.opacity = ok ? '1' : '.7';
-  }
+  // checks
+  const okChecks = okC.checked && okP.checked && okA.checked;
 
-  // Eventos
-  f.addEventListener('input', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
-  f.addEventListener('change', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
-  f.querySelectorAll('input[name="modalidad"]').forEach(r=>{
-  r.addEventListener('change', ()=>{ estadoBtnCita(); });
+  const listo = modalidad && okDatos && okCita && okChecks;
+
+  btnEnviar.disabled = !listo;
+  btnEnviar.style.cursor = listo ? 'pointer' : 'not-allowed';
+  btnEnviar.style.opacity = listo ? '1' : '.7';
+
+  // tooltip útil (opcional)
+  btnEnviar.title = !modalidad ? 'Selecciona una modalidad' :
+                    !okDatos   ? 'Revisa los datos obligatorios' :
+                    !okCita    ? 'Elige fecha/hora válidas (L–V, 09:00–14:00)' :
+                    !okChecks  ? 'Acepta contrato, políticas y aviso' : '';
+}
+// Recalcula rangos al cargar
+setRangoFecha();
+
+// Validación continua
+f.addEventListener('input',  ()=>{ clampHora(); validarTodo(); });
+f.addEventListener('change', ()=>{ clampHora(); validarTodo(); });
+
+// Radios de modalidad (algunos navegadores no disparan a tiempo)
+f.querySelectorAll('input[name="modalidad"]').forEach(r=>{
+  r.addEventListener('change', ()=>{ validarTodo(); });
 });
-  hora.addEventListener('input', ()=>{ clampHora(); estadoBtnEnviar(); });
-hora.addEventListener('change', ()=>{ clampHora(); estadoBtnEnviar(); });
-fecha.addEventListener('change', ()=>{ estadoBtnEnviar(); });
+
+// Hora/fecha específicas
+hora.addEventListener('input',  ()=>{ clampHora(); validarTodo(); });
+hora.addEventListener('change', ()=>{ clampHora(); validarTodo(); });
 fecha.addEventListener('change', ()=>{
   if (fecha.value) {
     const d = new Date(`${fecha.value}T00:00:00`);
-    const esFinde = d.getDay() === 0 || d.getDay() === 6;
-    if (esFinde) alert('Elige un día hábil (lunes a viernes).');
+    if (d.getDay() === 0 || d.getDay() === 6) alert('Elige un día hábil (lunes a viernes).');
   }
-  estadoBtnEnviar();
-});
-  btnCita.addEventListener('click', ()=>{
-    if(btnCita.disabled) return;
-    citaWrap.style.display = 'block';
-    fecha.disabled = false;
-    hora.disabled  = false;
-    fecha.focus();
-    estadoBtnEnviar();
-  });
-
-  btnEnviar.addEventListener('click', ()=>{
-  if(btnEnviar.disabled) return;
-
-  const modalidad = f.querySelector('input[name="modalidad"]:checked')?.value || '';
-
-  const payload = {
-    modalidad,
-    nombre: nombre.value.trim(),
-    estab:  estab.value.trim(),
-    calle:  calle.value.trim(),
-    noext:  noext.value.trim(),
-    noint:  noint.value.trim(),
-    colonia: colonia.value.trim(),
-    muni:   muni.value.trim(),
-    estado: estado.value.trim(),
-    cp:     cp.value.trim(),
-    tel:    tel.value.trim(),
-    mail:   mail.value.trim(),
-    fecha:  fecha.value,
-    hora:   hora.value,
-    okC: okC.checked, okP: okP.checked, okA: okA.checked
-  };
-
-  btnEnviar.disabled = true;
-  btnEnviar.textContent = 'Enviando…';
-
-  fetch(GAS_URL, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload)
-  })
-  .then(r => r.ok ? r.json() : Promise.reject('HTTP ' + r.status))
-  .then(res => {
-    if (!res.ok) throw new Error('Backend respondió error');
-    btnEnviar.textContent = 'Enviado';
-    alert('Gracias. Recibimos tu solicitud y te contactaremos para confirmar la reunión.');
-    f.reset();
-    citaWrap.style.display = 'none';
-    fecha.disabled = true;
-    hora.disabled  = true;
-    setRangoFecha();
-    estadoBtnCita();
-    estadoBtnEnviar();
-  })
-  .catch(err => {
-    console.error(err);
-    btnEnviar.disabled = false;
-    btnEnviar.textContent = 'Enviar';
-    alert('No pudimos enviar tu solicitud. Reintenta en unos minutos.');
-  });
+  validarTodo();
 });
 
+// Estado inicial (por si autocompleta el navegador)
+validarTodo();
+    btnEnviar.addEventListener('click', ()=>{
+    if(btnEnviar.disabled) return;
 
+    const modalidad = f.querySelector('input[name="modalidad"]:checked')?.value || '';
+
+    const payload = {
+      modalidad,
+      nombre: nombre.value.trim(),
+      estab:  estab.value.trim(),
+      calle:  calle.value.trim(),
+      noext:  noext.value.trim(),
+      noint:  noint.value.trim(),
+      colonia: colonia.value.trim(),
+      muni:   muni.value.trim(),
+      estado: estado.value.trim(),
+      cp:     cp.value.trim(),
+      tel:    tel.value.trim(),
+      mail:   mail.value.trim(),
+      fecha:  fecha.value,
+      hora:   hora.value,
+      okC: okC.checked, okP: okP.checked, okA: okA.checked
+    };
+
+    btnEnviar.disabled = true;
+    btnEnviar.textContent = 'Enviando…';
+
+    fetch(GAS_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+    .then(r => r.ok ? r.json() : Promise.reject('HTTP ' + r.status))
+    .then(res => {
+      if (!res.ok) throw new Error('Backend respondió error');
+      btnEnviar.textContent = 'Enviado';
+      alert('Gracias. Recibimos tu solicitud y te contactaremos para confirmar la reunión.');
+      f.reset();
+      setRangoFecha();
+      validarTodo();   // re-evalúa el botón tras el reset
+    })
+    .catch(err => {
+      console.error(err);
+      btnEnviar.disabled = false;
+      btnEnviar.textContent = 'Enviar';
+      alert('No pudimos enviar tu solicitud. Reintenta en unos minutos.');
+    });
+  });
+
+
+
+
+})();
 </script>
 
 
