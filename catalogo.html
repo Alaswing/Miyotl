@@ -40,6 +40,8 @@
 .filters{
   display:flex;
   gap:10px;
+  justify-content:center;   /* <- vuelve a centrar */
+  align-items:center;
   flex-wrap:wrap;
 }
 .filters button{
@@ -101,7 +103,8 @@
   <div class="nav-under-banner">
 	</div>
  </header>
-
+ 
+<div class="filters-wrap">
 <!-- Filtros -->
 <div class="filters">
   <button data-filter="all" class="is-active">Todos</button>
