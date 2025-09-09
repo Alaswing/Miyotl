@@ -119,9 +119,37 @@
 		  <label>Nombre del establecimiento
             <input type="text" id="estab" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
           </label>
-          <label>Dirección completa
-            <textarea id="dir" required rows="3" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200);resize:vertical"></textarea>
-          </label>
+          <!-- Dirección (detalle) -->
+		  <label for="calle" style="display:block;margin:2px 0 6px">Dirección completa</label>
+<div style="display:grid;gap:10px;grid-template-columns:1fr 140px 140px;align-items:end">
+  <label>Calle
+    <input type="text" id="calle" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>No. exterior
+    <input type="text" id="noext" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>No. interior (opcional)
+    <input type="text" id="noint" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+</div>
+
+<div style="display:grid;gap:10px;grid-template-columns:1fr 1fr 160px;align-items:end">
+  <label>Colonia
+    <input type="text" id="colonia" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>Municipio / Delegación
+    <input type="text" id="muni" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>C.P.
+    <input type="text" id="cp" required inputmode="numeric" maxlength="5" placeholder="5 dígitos"
+           style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+</div>
+
+<label>Estado
+  <input type="text" id="estado" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+</label>
+
           <label>Teléfono
             <input type="tel" id="tel" required placeholder="10 dígitos" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
           </label>
@@ -149,10 +177,10 @@
         <div id="cita-wrap" style="display:none">
           <div style="display:grid;gap:10px;grid-template-columns:1fr 1fr;max-width:520px;margin:0 auto">
             <label>Fecha (día hábil)
-              <input type="date" id="fecha" disabled style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+              <input type="date" id="fecha" required disabled style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
             </label>
             <label>Hora (9:00–14:00)
-              <input type="time" id="hora" min="09:00" max="14:00" step="900" disabled style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+              <input type="time" id="hora" required min="09:00" max="14:00" step="900" disabled style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
             </label>
           </div>
           <p class="muted" style="text-align:center;margin:8px 0 0">Agenda a partir del próximo día hábil y hasta 2 semanas.</p>
@@ -183,11 +211,20 @@
 (function(){
   const f = document.getElementById('form-distrib');
   if(!f) return;
-
+	const yspan = document.getElementById('year');
+	if (yspan) yspan.textContent = new Date().getFullYear();
   // Campos (TODOS los requeridos para habilitar Agendar cita)
   const nombre = document.getElementById('nombre'); // requerido
   const estab  = document.getElementById('estab');  // requerido
-  const dir    = document.getElementById('dir');    // requerido
+  // const dir    = document.getElementById('dir');    // <- QUITA esta línea
+const calle  = document.getElementById('calle');
+const noext  = document.getElementById('noext');
+const noint  = document.getElementById('noint'); // opcional
+const colonia= document.getElementById('colonia');
+const muni   = document.getElementById('muni');
+const estado = document.getElementById('estado');
+const cp     = document.getElementById('cp');
+
   const tel    = document.getElementById('tel');    // requerido (10 dígitos)
   const mail   = document.getElementById('mail');   // requerido
 
@@ -204,6 +241,7 @@
   // Helpers
   const esEmail = (v)=> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
   const esTel   = (v)=> /^[0-9]{10}$/.test(v.replace(/\D/g,''));
+  const esCP   = (v)=> /^[0-9]{5}$/.test(v);
   const esHabil = (d)=>{ const wd=d.getDay(); return wd>=1 && wd<=5; }; // L-V
 
   // Fecha min = próximo día hábil (LOCAL), max = +14 días
@@ -221,12 +259,28 @@
     fecha.min = toYMDLocal(min);
     fecha.max = toYMDLocal(max);
   }
+  // Forzar que la hora quede entre 09:00 y 14:00
+function clampHora(){
+  if(!hora.value) return;
+  if(hora.value < '09:00') hora.value = '09:00';
+  if(hora.value > '14:00') hora.value = '14:00';
+}
   setRangoFecha();
 
   // Habilitar "Agendar cita": modalidad + datos + 3 checks
   function estadoBtnCita(){
     const modalidad = f.querySelector('input[name="modalidad"]:checked');
-    const okDatos = nombre.value.trim() && estab.value.trim() && dir.value.trim() && esTel(tel.value) && esEmail(mail.value);
+    const okDatos =
+  nombre.value.trim() &&
+  estab.value.trim() &&
+  calle.value.trim() &&
+  noext.value.trim() &&
+  colonia.value.trim() &&
+  muni.value.trim() &&
+  estado.value.trim() &&
+  esCP(cp.value) &&
+  esTel(tel.value) &&
+  esEmail(mail.value);
     const okChecks = okC.checked && okP.checked && okA.checked;
     const listo = modalidad && okDatos && okChecks;
     btnCita.disabled = !listo;
@@ -251,7 +305,17 @@
   // Eventos
   f.addEventListener('input', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
   f.addEventListener('change', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
-
+  hora.addEventListener('input', ()=>{ clampHora(); estadoBtnEnviar(); });
+hora.addEventListener('change', ()=>{ clampHora(); estadoBtnEnviar(); });
+fecha.addEventListener('change', ()=>{ estadoBtnEnviar(); });
+fecha.addEventListener('change', ()=>{
+  if (fecha.value) {
+    const d = new Date(`${fecha.value}T00:00:00`);
+    const esFinde = d.getDay() === 0 || d.getDay() === 6;
+    if (esFinde) alert('Elige un día hábil (lunes a viernes).');
+  }
+  estadoBtnEnviar();
+});
   btnCita.addEventListener('click', ()=>{
     if(btnCita.disabled) return;
     citaWrap.style.display = 'block';
@@ -264,13 +328,20 @@
   btnEnviar.addEventListener('click', ()=>{
     if(btnEnviar.disabled) return;
     const modalidad = f.querySelector('input[name="modalidad"]:checked')?.value || '';
-    const cuerpo =
+const dirLinea1 = `${calle.value.trim()} ${noext.value.trim()}${noint.value.trim() ? ' Int. '+noint.value.trim() : ''}`;
+const dirLinea2 = `${colonia.value.trim()}, ${muni.value.trim()}, ${estado.value.trim()}, C.P. ${cp.value.trim()}`;
+
+const cuerpo =
 `Solicitud de reunión — Distribución
 
 Modalidad: ${modalidad}
 Nombre completo: ${nombre.value.trim()}
 Establecimiento: ${estab.value.trim()}
-Dirección: ${dir.value.trim()}
+
+Dirección:
+${dirLinea1}
+${dirLinea2}
+
 Teléfono: ${tel.value.trim()}
 Correo: ${mail.value.trim()}
 
@@ -281,12 +352,15 @@ Confirmo haber leído y aceptado:
 - Políticas: ${okP.checked ? 'Sí' : 'No'}
 - Aviso de privacidad: ${okA.checked ? 'Sí' : 'No'}`;
 
+
     const subject = encodeURIComponent('Miyotl — Solicitud de reunión (Distribución)');
     const body    = encodeURIComponent(cuerpo);
     const to      = 'miyotlproductos@gmail.com';
     window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
   });
-})();
+// Estado inicial al cargar (por si el navegador autocompletó campos)
+  estadoBtnCita();
+  estadoBtnEnviar();})();
 </script>
 
 
