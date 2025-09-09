@@ -178,14 +178,117 @@
   </div>
 </footer>
 
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-
 <!-- === Script de lógica del formulario distribuidor === -->
 <script>
-  (function(){
-    // todo el código que te pasé aquí...
-  })();
+(function(){
+  const f = document.getElementById('form-distrib');
+  if(!f) return;
+
+  // Campos (TODOS los requeridos para habilitar Agendar cita)
+  const nombre = document.getElementById('nombre'); // requerido
+  const estab  = document.getElementById('estab');  // requerido
+  const dir    = document.getElementById('dir');    // requerido
+  const tel    = document.getElementById('tel');    // requerido (10 dígitos)
+  const mail   = document.getElementById('mail');   // requerido
+
+  const okC = document.getElementById('ok-contrato');
+  const okP = document.getElementById('ok-politicas');
+  const okA = document.getElementById('ok-aviso');
+
+  const btnCita   = document.getElementById('btn-cita');
+  const citaWrap  = document.getElementById('cita-wrap');
+  const fecha     = document.getElementById('fecha');
+  const hora      = document.getElementById('hora');
+  const btnEnviar = document.getElementById('btn-enviar');
+
+  // Helpers
+  const esEmail = (v)=> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+  const esTel   = (v)=> /^[0-9]{10}$/.test(v.replace(/\D/g,''));
+  const esHabil = (d)=>{ const wd=d.getDay(); return wd>=1 && wd<=5; }; // L-V
+
+  // Fecha min = próximo día hábil (LOCAL), max = +14 días
+  function toYMDLocal(dt){
+    const y = dt.getFullYear();
+    const m = String(dt.getMonth()+1).padStart(2,'0');
+    const d = String(dt.getDate()).padStart(2,'0');
+    return `${y}-${m}-${d}`;
+  }
+  function setRangoFecha(){
+    const hoy = new Date();
+    let min = new Date(hoy); min.setDate(min.getDate()+1);
+    while(!esHabil(min)) min.setDate(min.getDate()+1);
+    const max = new Date(min); max.setDate(max.getDate()+14);
+    fecha.min = toYMDLocal(min);
+    fecha.max = toYMDLocal(max);
+  }
+  setRangoFecha();
+
+  // Habilitar "Agendar cita": modalidad + datos + 3 checks
+  function estadoBtnCita(){
+    const modalidad = f.querySelector('input[name="modalidad"]:checked');
+    const okDatos = nombre.value.trim() && estab.value.trim() && dir.value.trim() && esTel(tel.value) && esEmail(mail.value);
+    const okChecks = okC.checked && okP.checked && okA.checked;
+    const listo = modalidad && okDatos && okChecks;
+    btnCita.disabled = !listo;
+    btnCita.style.cursor = listo ? 'pointer' : 'not-allowed';
+    btnCita.style.opacity = listo ? '1' : '.7';
+  }
+
+  // Habilitar "Enviar": fecha/hora válidas, en rango y día hábil
+  function estadoBtnEnviar(){
+    let ok = false;
+    if(fecha.value && hora.value){
+      const d = new Date(`${fecha.value}T${hora.value}:00`);
+      const min = new Date(`${fecha.min}T00:00:00`);
+      const max = new Date(`${fecha.max}T23:59:59`);
+      ok = d>=min && d<=max && esHabil(d) && hora.value>='09:00' && hora.value<='14:00';
+    }
+    btnEnviar.disabled = !ok;
+    btnEnviar.style.cursor = ok ? 'pointer' : 'not-allowed';
+    btnEnviar.style.opacity = ok ? '1' : '.7';
+  }
+
+  // Eventos
+  f.addEventListener('input', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
+  f.addEventListener('change', ()=>{ estadoBtnCita(); estadoBtnEnviar(); });
+
+  btnCita.addEventListener('click', ()=>{
+    if(btnCita.disabled) return;
+    citaWrap.style.display = 'block';
+    fecha.disabled = false;
+    hora.disabled  = false;
+    fecha.focus();
+    estadoBtnEnviar();
+  });
+
+  btnEnviar.addEventListener('click', ()=>{
+    if(btnEnviar.disabled) return;
+    const modalidad = f.querySelector('input[name="modalidad"]:checked')?.value || '';
+    const cuerpo =
+`Solicitud de reunión — Distribución
+
+Modalidad: ${modalidad}
+Nombre completo: ${nombre.value.trim()}
+Establecimiento: ${estab.value.trim()}
+Dirección: ${dir.value.trim()}
+Teléfono: ${tel.value.trim()}
+Correo: ${mail.value.trim()}
+
+Propuesta de fecha/hora: ${fecha.value} ${hora.value}
+
+Confirmo haber leído y aceptado:
+- Términos del contrato: ${okC.checked ? 'Sí' : 'No'}
+- Políticas: ${okP.checked ? 'Sí' : 'No'}
+- Aviso de privacidad: ${okA.checked ? 'Sí' : 'No'}`;
+
+    const subject = encodeURIComponent('Miyotl — Solicitud de reunión (Distribución)');
+    const body    = encodeURIComponent(cuerpo);
+    const to      = 'miyotlproductos@gmail.com';
+    window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+  });
+})();
 </script>
+
 
 </body>
 </html>
