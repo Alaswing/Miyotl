@@ -211,6 +211,8 @@
 (function(){
   const f = document.getElementById('form-distrib');
   if(!f) return;
+  const GAS_URL = 'https://script.google.com/macros/s/AKfycbzQGQpK2av2IUeFchgwCufDucInaQZRoDYy2X6nWkW9314RsYJTS4kHIYnmHW3NrYbv/exec';
+
 	const yspan = document.getElementById('year');
 	if (yspan) yspan.textContent = new Date().getFullYear();
   // Campos (TODOS los requeridos para habilitar Agendar cita)
@@ -351,26 +353,23 @@ fecha.addEventListener('change', ()=>{
     okC: okC.checked, okP: okP.checked, okA: okA.checked
   };
 
-  // UI de envío
   btnEnviar.disabled = true;
   btnEnviar.textContent = 'Enviando…';
 
-  fetch('PEGAR_AQUI_TU_URL_DE_GAS', {
+  fetch(GAS_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload)
   })
-  .then(r => r.ok ? r.json() : Promise.reject('HTTP '+r.status))
+  .then(r => r.ok ? r.json() : Promise.reject('HTTP ' + r.status))
   .then(res => {
     if (!res.ok) throw new Error('Backend respondió error');
     btnEnviar.textContent = 'Enviado';
     alert('Gracias. Recibimos tu solicitud y te contactaremos para confirmar la reunión.');
-    // Reset limpio
     f.reset();
     citaWrap.style.display = 'none';
     fecha.disabled = true;
     hora.disabled  = true;
-    // Recalcular rangos/estados
     setRangoFecha();
     estadoBtnCita();
     estadoBtnEnviar();
@@ -382,6 +381,7 @@ fecha.addEventListener('change', ()=>{
     alert('No pudimos enviar tu solicitud. Reintenta en unos minutos.');
   });
 });
+
 
 </script>
 
