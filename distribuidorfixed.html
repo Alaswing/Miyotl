@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiero ser distribuidor — Miyotl Products</title>
+  <meta name="description" content="Programa para distribuidores de Miyotl.">
+  <style>
+    :root{
+      --brand-50:#F7EFE6; --brand-100:#F2E6D8; --brand-200:#EAD6C0; --brand-300:#DBBFA2;
+      --brand-400:#C9A781; --brand-500:#2B0F3A; --brand-700:#1B0D28;
+      --miyotl:#C53D8C; --ink:#140A1F;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:ui-sans-serif,system-ui,Inter,Segoe UI,Roboto,Arial;
+      color:var(--ink);
+      background:#fff; 
+    }
+    .container{max-width:1120px;margin:0 auto;padding:0 16px}
+
+    /* Banner (igual al index) */
+    header{background:#e1d1bd}
+    .top-banner{width:100%;height:260px;object-fit:cover;display:block;filter:saturate(.9)}
+
+    /* Barra bajo el banner (misma que ya usamos) */
+    .nav-under-banner{
+      display:flex;gap:10px;justify-content:center;align-items:center;flex-wrap:wrap;
+      padding:12px 16px;border-bottom:1px solid var(--brand-200);background:#fff;
+    }
+    .nav-under-banner a{
+      appearance:none;border:1px solid #A83477;background:var(--miyotl);color:#fff;cursor:pointer;
+      padding:8px 12px;border-radius:12px;font-size:14px;text-decoration:none;font-weight:700;
+      transition:.15s transform,.15s opacity;
+    }
+    .nav-under-banner a:hover{transform:translateY(-1px)}
+
+    /* Placeholder de sección (contenido real lo agregamos después) */
+    .hero{padding:28px 0 16px}
+    .hero h1{text-align:center;margin:0 0 8px}
+    .hero p{color:#4d4d4d;text-align:justify;margin:0}
+    footer{padding:18px 0 28px;border-top:1px solid var(--brand-100);margin-top:28px}
+  </style>
+</head>
+<body>
+<header>
+  <!-- Mismo banner que el index -->
+  <img class="top-banner" src="Assets/Images/LogolargoMiyotl1.webp" alt="Miyotl — banner">
+
+  <!-- Misma barra de navegación -->
+  <nav class="nav-under-banner">
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="distribuidor.html">Quiero ser distribuidor</a>
+    <a href="politicas.html">Políticas</a>
+    <a href="aviso.html">Aviso de privacidad</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Crece con Miyotl y gana desde el día uno!</h1>
+      <p class="muted">
+  Tus clientes ya buscan productos naturales y honestos para el cuidado de su piel. 
+  Con Miyotl no necesitas grandes inversiones para empezar: puedes integrarnos a tu spa, barbería o tienda y comenzar a ganar desde el primer día. 
+  Te ofrecemos un modelo claro, contratos justos y respaldo constante para que tu negocio crezca y se diferencie. 
+  Ser Concesionario, Mayorista o Distribuidor no es solo comprar producto: es asegurar un flujo de clientes satisfechos que volverán a pedir lo que solo tú les puedes dar.
+</p>
+    </div>
+  </section>
+
+  <!-- 3 variantes -->
+  <section class="section" style="padding:18px 0">
+    <div class="container" style="display:grid;gap:12px;grid-template-columns:1fr;max-width:980px">
+      <div style="display:grid;gap:12px" class="tiers">
+        <div class="card" style="background:#fff;border:1px solid var(--brand-200);border-radius:16px;padding:16px">
+          <h2 style="margin:0 0 6px;font-size:20px">Concesionario</h2>
+          <p class="muted" style="margin:6px 0 0">
+            Pensado para spas, barberías y estéticas que buscan diferenciar su servicio con una línea propia y exhibición cuidada en su punto. Soporte de activaciones y POP oficial.
+          </p>
+        </div>
+        <div class="card" style="background:#fff;border:1px solid var(--brand-200);border-radius:16px;padding:16px">
+          <h2 style="margin:0 0 6px;font-size:20px">Mayorista</h2>
+          <p class="muted" style="margin:6px 0 0">
+            Enfoque en volumen y rotación. Condiciones por Unidad Logística, precios preferentes y reglas claras para proteger la marca y la rentabilidad del canal.
+          </p>
+        </div>
+        <div class="card" style="background:#fff;border:1px solid var(--brand-200);border-radius:16px;padding:16px">
+          <h2 style="margin:0 0 6px;font-size:20px">Distribuidor</h2>
+          <p class="muted" style="margin:6px 0 0">
+            Desarrollo de territorio, capacitación y acompañamiento comercial. Condiciones de compra pactadas y metas con evaluación periódica.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section class="section" style="padding:10px 0 28px">
+    <div class="container" style="max-width:720px">
+      <form id="form-distrib" onsubmit="return false" novalidate>
+        <!-- Selección única de variante -->
+        <fieldset style="border:1px solid var(--brand-200);border-radius:12px;padding:12px;margin:0 0 12px">
+          <legend style="padding:0 6px">Elige el que mejor se ajuste a ti</legend>
+			<label><input type="radio" name="modalidad" value="Concesionario" required> Concesionario</label>
+			<label><input type="radio" name="modalidad" value="Mayorista"> Mayorista</label>
+			<label><input type="radio" name="modalidad" value="Distribuidor"> Distribuidor</label>
+
+        </fieldset>
+
+        <!-- Datos del establecimiento -->
+        <div style="display:grid;gap:10px;margin:12px 0">
+          <label>Nombre completo
+            <input type="text" id="nombre" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+          </label>
+		  <label>Nombre del establecimiento
+            <input type="text" id="estab" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+          </label>
+          <!-- Dirección (detalle) -->
+		  <label for="calle" style="display:block;margin:2px 0 6px">Dirección completa</label>
+<div style="display:grid;gap:10px;grid-template-columns:1fr 140px 140px;align-items:end">
+  <label>Calle
+    <input type="text" id="calle" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>No. ext
+    <input type="text" id="noext" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>No. int
+    <input type="text" id="noint" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+</div>
+
+<div style="display:grid;gap:10px;grid-template-columns:1fr 1fr 160px;align-items:end">
+  <label>Colonia
+    <input type="text" id="colonia" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>Municipio / Delegación
+    <input type="text" id="muni" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+  <label>C.P.
+    <input type="text" id="cp" required inputmode="numeric" maxlength="5" placeholder="5 dígitos"
+           style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+  </label>
+</div>
+
+<label>Estado
+  <input type="text" id="estado" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+</label>
+
+          <label>Teléfono
+            <input type="tel" id="tel" required placeholder="10 dígitos" style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+          </label>
+          <label>Correo electrónico
+            <input type="email" id="mail" required style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+          </label>
+        </div>
+
+        <!-- Aceptaciones -->
+        <div style="display:grid;gap:6px;margin:12px 0">
+          <label><input type="checkbox" id="ok-contrato"> He leído los <a href="distribuidor.html#contrato" onclick="return false">términos del contrato</a> y estoy de acuerdo.</label>
+          <label><input type="checkbox" id="ok-politicas"> He leído las <a href="politicas.html" target="_self">políticas</a> y estoy de acuerdo.</label>
+          <label><input type="checkbox" id="ok-aviso"> He leído el <a href="aviso.html" target="_self">aviso de privacidad</a> y estoy de acuerdo.</label>
+        </div>
+
+        <!-- Agendar cita -->
+<h3 style="text-align:center;margin:16px 0 6px">Agendar cita</h3>
+<div id="cita-wrap" style="display:block">
+  <div style="display:grid;gap:10px;grid-template-columns:1fr 1fr;max-width:520px;margin:0 auto">
+    <label>Fecha (día hábil)
+      <input type="date" id="fecha" required
+             style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+    </label>
+    <label>Hora (9:00–14:00)
+      <input type="time" id="hora" required min="09:00" max="14:00" step="900"
+             style="width:100%;padding:10px;border-radius:10px;border:1px solid var(--brand-200)">
+    </label>
+  </div>
+  <p class="muted" style="text-align:center;margin:8px 0 0">
+    Elige un día hábil a partir de mañana y hasta 2 semanas.
+  </p>
+</div>
+
+
+        <!-- Enviar -->
+        <div style="text-align:center;margin:16px 0 0">
+          <button id="btn-enviar" type="button" class="btn secondary" disabled
+                  style="appearance:none;border:1px solid #A83477;background:#fff;color:#A83477;padding:10px 14px;border-radius:12px;font-weight:700;cursor:not-allowed">
+            Enviar
+          </button>
+          <p class="muted" style="margin:8px 0 0">Nos pondremos en contacto para confirmar la reunión.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="container" style="text-align:center">
+    © <span id="year"></span> Miyotl Products · Hecho en México
+  </div>
+</footer>
+
+<!-- === Script de lógica del formulario distribuidor === -->
+<script>
+(function(){
+  const f = document.getElementById('form-distrib');
+  if(!f) return;
+  const GAS_URL = 'https://script.google.com/macros/s/AKfycbzQGQpK2av2IUeFchgwCufDucInaQZRoDYy2X6nWkW9314RsYJTS4kHIYnmHW3NrYbv/exec';
+
+	const yspan = document.getElementById('year');
+	if (yspan) yspan.textContent = new Date().getFullYear();
+  // Campos (TODOS los requeridos para habilitar Agendar cita)
+  const nombre = document.getElementById('nombre'); // requerido
+  const estab  = document.getElementById('estab');  // requerido
+  // const dir    = document.getElementById('dir');    // <- QUITA esta línea
+const calle  = document.getElementById('calle');
+const noext  = document.getElementById('noext');
+const noint  = document.getElementById('noint'); // opcional
+const colonia= document.getElementById('colonia');
+const muni   = document.getElementById('muni');
+const estado = document.getElementById('estado');
+const cp     = document.getElementById('cp');
+
+  const tel    = document.getElementById('tel');    // requerido (10 dígitos)
+  const mail   = document.getElementById('mail');   // requerido
+
+  const okC = document.getElementById('ok-contrato');
+  const okP = document.getElementById('ok-politicas');
+  const okA = document.getElementById('ok-aviso');
+
+  const citaWrap  = document.getElementById('cita-wrap');
+  const fecha     = document.getElementById('fecha');
+  const hora      = document.getElementById('hora');
+  const btnEnviar = document.getElementById('btn-enviar');
+
+  // Helpers
+  const esEmail = (v)=> /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+  const esTel   = (v)=> /^[0-9]{10}$/.test(v.replace(/\D/g,''));
+  const esCP   = (v)=> /^[0-9]{5}$/.test(v);
+  const esHabil = (d)=>{ const wd=d.getDay(); return wd>=1 && wd<=5; }; // L-V
+
+  // Fecha min = próximo día hábil (LOCAL), max = +14 días
+  function toYMDLocal(dt){
+    const y = dt.getFullYear();
+    const m = String(dt.getMonth()+1).padStart(2,'0');
+    const d = String(dt.getDate()).padStart(2,'0');
+    return `${y}-${m}-${d}`;
+  }
+  function setRangoFecha(){
+    const hoy = new Date();
+    let min = new Date(hoy); min.setDate(min.getDate()+1);
+    while(!esHabil(min)) min.setDate(min.getDate()+1);
+    const max = new Date(min); max.setDate(max.getDate()+14);
+    fecha.min = toYMDLocal(min);
+    fecha.max = toYMDLocal(max);
+  }
+  // Forzar que la hora quede entre 09:00 y 14:00
+function clampHora(){
+  if(!hora.value) return;
+  if(hora.value < '09:00') hora.value = '09:00';
+  if(hora.value > '14:00') hora.value = '14:00';
+}
+function validarTodo(){
+  // requisitos base (datos + modalidad)
+  const modalidad = f.querySelector('input[name="modalidad"]:checked');
+  const okDatos =
+    nombre.value.trim() &&
+    estab.value.trim() &&
+    calle.value.trim() &&
+    noext.value.trim() &&
+    colonia.value.trim() &&
+    muni.value.trim() &&
+    estado.value.trim() &&
+    esCP(cp.value.trim()) &&
+    esTel(tel.value) &&
+    esEmail(mail.value);
+
+  // fecha/hora válidas
+  let okCita = false;
+  if (fecha.value && hora.value) {
+    const d   = new Date(`${fecha.value}T${hora.value}:00`);
+    const min = new Date(`${fecha.min}T00:00:00`);
+    const max = new Date(`${fecha.max}T23:59:59`);
+    okCita = d >= min && d <= max && esHabil(d) && hora.value >= '09:00' && hora.value <= '14:00';
+  }
+
+  // checks
+  const okChecks = okC.checked && okP.checked && okA.checked;
+
+  const listo = modalidad && okDatos && okCita && okChecks;
+
+  btnEnviar.disabled = !listo;
+  btnEnviar.style.cursor = listo ? 'pointer' : 'not-allowed';
+  btnEnviar.style.opacity = listo ? '1' : '.7';
+
+  // tooltip útil (opcional)
+  btnEnviar.title = !modalidad ? 'Selecciona una modalidad' :
+                    !okDatos   ? 'Revisa los datos obligatorios' :
+                    !okCita    ? 'Elige fecha/hora válidas (L–V, 09:00–14:00)' :
+                    !okChecks  ? 'Acepta contrato, políticas y aviso' : '';
+}
+// Recalcula rangos al cargar
+setRangoFecha();
+
+// Validación continua
+f.addEventListener('input',  ()=>{ clampHora(); validarTodo(); });
+f.addEventListener('change', ()=>{ clampHora(); validarTodo(); });
+
+// Radios de modalidad (algunos navegadores no disparan a tiempo)
+f.querySelectorAll('input[name="modalidad"]').forEach(r=>{
+  r.addEventListener('change', ()=>{ validarTodo(); });
+});
+
+// Hora/fecha específicas
+hora.addEventListener('input',  ()=>{ clampHora(); validarTodo(); });
+hora.addEventListener('change', ()=>{ clampHora(); validarTodo(); });
+fecha.addEventListener('change', ()=>{
+  if (fecha.value) {
+    const d = new Date(`${fecha.value}T00:00:00`);
+    if (d.getDay() === 0 || d.getDay() === 6) alert('Elige un día hábil (lunes a viernes).');
+  }
+  validarTodo();
+});
+
+// Estado inicial (por si autocompleta el navegador)
+validarTodo();
+    btnEnviar.addEventListener('click', ()=>{
+    if(btnEnviar.disabled) return;
+
+    const modalidad = f.querySelector('input[name="modalidad"]:checked')?.value || '';
+
+    const payload = {
+      modalidad,
+      nombre: nombre.value.trim(),
+      estab:  estab.value.trim(),
+      calle:  calle.value.trim(),
+      noext:  noext.value.trim(),
+      noint:  noint.value.trim(),
+      colonia: colonia.value.trim(),
+      muni:   muni.value.trim(),
+      estado: estado.value.trim(),
+      cp:     cp.value.trim(),
+      tel:    tel.value.trim(),
+      mail:   mail.value.trim(),
+      fecha:  fecha.value,
+      hora:   hora.value,
+      okC: okC.checked, okP: okP.checked, okA: okA.checked
+    };
+
+    btnEnviar.disabled = true;
+    btnEnviar.textContent = 'Enviando…';
+
+    fetch(GAS_URL, {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+  body: JSON.stringify(payload)
+})
+.then(async (r) => {
+  // Si el servidor permite CORS y responde JSON, úsalo
+  try {
+    const data = await r.json();
+    if (data && data.ok === false) throw new Error('Backend respondió error');
+  } catch (_) {
+    // Si no podemos leer (CORS), lo tratamos como envío exitoso;
+    // continuamos al siguiente .then sin lanzar error.
+  }
+})
+.then(() => {
+  btnEnviar.textContent = 'Enviado';
+  alert('Gracias. Recibimos tu solicitud y te contactaremos para confirmar la reunión.');
+  f.reset();
+  setRangoFecha();
+  validarTodo();
+})
+.catch(err => {
+  console.error(err);
+  // Fallback sin CORS: enviamos como text/plain (simple request) y confirmamos.
+  fetch(GAS_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+    body: JSON.stringify(payload)
+  }).finally(() => {
+    btnEnviar.textContent = 'Enviado';
+    alert('Gracias. Recibimos tu solicitud y te contactaremos para confirmar la reunión.');
+    f.reset();
+    setRangoFecha();
+    validarTodo();
+  });
+});
+  });
+
+
+
+
+})();
+</script>
+
+
+</body>
+</html>
