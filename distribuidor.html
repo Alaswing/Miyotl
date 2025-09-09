@@ -329,41 +329,60 @@ fecha.addEventListener('change', ()=>{
   });
 
   btnEnviar.addEventListener('click', ()=>{
-    if(btnEnviar.disabled) return;
-    const modalidad = f.querySelector('input[name="modalidad"]:checked')?.value || '';
-const dirLinea1 = `${calle.value.trim()} ${noext.value.trim()}${noint.value.trim() ? ' Int. '+noint.value.trim() : ''}`;
-const dirLinea2 = `${colonia.value.trim()}, ${muni.value.trim()}, ${estado.value.trim()}, C.P. ${cp.value.trim()}`;
+  if(btnEnviar.disabled) return;
 
-const cuerpo =
-`Solicitud de reunión — Distribución
+  const modalidad = f.querySelector('input[name="modalidad"]:checked')?.value || '';
 
-Modalidad: ${modalidad}
-Nombre completo: ${nombre.value.trim()}
-Establecimiento: ${estab.value.trim()}
+  const payload = {
+    modalidad,
+    nombre: nombre.value.trim(),
+    estab:  estab.value.trim(),
+    calle:  calle.value.trim(),
+    noext:  noext.value.trim(),
+    noint:  noint.value.trim(),
+    colonia: colonia.value.trim(),
+    muni:   muni.value.trim(),
+    estado: estado.value.trim(),
+    cp:     cp.value.trim(),
+    tel:    tel.value.trim(),
+    mail:   mail.value.trim(),
+    fecha:  fecha.value,
+    hora:   hora.value,
+    okC: okC.checked, okP: okP.checked, okA: okA.checked
+  };
 
-Dirección:
-${dirLinea1}
-${dirLinea2}
+  // UI de envío
+  btnEnviar.disabled = true;
+  btnEnviar.textContent = 'Enviando…';
 
-Teléfono: ${tel.value.trim()}
-Correo: ${mail.value.trim()}
-
-Propuesta de fecha/hora: ${fecha.value} ${hora.value}
-
-Confirmo haber leído y aceptado:
-- Términos del contrato: ${okC.checked ? 'Sí' : 'No'}
-- Políticas: ${okP.checked ? 'Sí' : 'No'}
-- Aviso de privacidad: ${okA.checked ? 'Sí' : 'No'}`;
-
-
-    const subject = encodeURIComponent('Miyotl — Solicitud de reunión (Distribución)');
-    const body    = encodeURIComponent(cuerpo);
-    const to      = 'miyotlproductos@gmail.com';
-    window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+  fetch('PEGAR_AQUI_TU_URL_DE_GAS', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+  .then(r => r.ok ? r.json() : Promise.reject('HTTP '+r.status))
+  .then(res => {
+    if (!res.ok) throw new Error('Backend respondió error');
+    btnEnviar.textContent = 'Enviado';
+    alert('Gracias. Recibimos tu solicitud y te contactaremos para confirmar la reunión.');
+    // Reset limpio
+    f.reset();
+    citaWrap.style.display = 'none';
+    fecha.disabled = true;
+    hora.disabled  = true;
+    // Recalcular rangos/estados
+    setRangoFecha();
+    estadoBtnCita();
+    estadoBtnEnviar();
+  })
+  .catch(err => {
+    console.error(err);
+    btnEnviar.disabled = false;
+    btnEnviar.textContent = 'Enviar';
+    alert('No pudimos enviar tu solicitud. Reintenta en unos minutos.');
   });
-// Estado inicial al cargar (por si el navegador autocompletó campos)
-  estadoBtnCita();
-  estadoBtnEnviar();})();
+});
+
 </script>
 
 
