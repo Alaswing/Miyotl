@@ -72,22 +72,17 @@
     .card h3{font-size:16px;margin:10px 12px 2px}
     .tagline{color:#555;margin:0 12px 12px;font-size:13px;min-height:34px}
 	/* Fila de título con datos a la derecha */
-	.card .title-row{
-		display:flex;
-		align-items:baseline;
-		gap:8px;
-		margin:10px 12px 2px;  /* mismo espacio que h3 tenía */
-}
-	.card .title-row h3{
-		margin:0;
-		font-size:16px;
-}
 	.card .meta{
 		margin-left:auto;
 		font-size:13px;
 		color:#666;
 		text-align:right;      /* alineación a la derecha SOLO para estos datos */
 		white-space:nowrap;    /* evita salto de línea en "Barra · 120 g" */
+	/* Bloque derecho para forma y tamaño debajo de la tagline */
+	.card .meta-row{
+		display:flex;
+		justify-content:flex-end;
+		margin:0 12px 10px;
 }
 
     /* Modal genérico */
@@ -205,13 +200,16 @@ function productCard(p){
   el.dataset.cats = p.cats.join(',');
   el.innerHTML = `
     <img src="${p.img}" alt="${p.nombre}">
-    <div class="title-row">
-  <h3>${p.nombre}</h3>
-  <span class="meta">
-    ${p.forma ? p.forma : ''}${p.forma && p.tamano ? ' · ' : ''}${p.tamano ? (p.tamano + ' g') : ''}
-  </span>
-</div>
+    <h3>${p.nombre}</h3>
 <p class="tagline">${p.beneficios[0] ?? ''}</p>
+${(p.forma || p.tamano)
+  ? `<div class="meta-row">
+       <span class="meta">
+         ${p.forma ? p.forma : ''}${p.forma && p.tamano ? ' · ' : ''}${p.tamano || ''}
+       </span>
+     </div>`
+  : ''
+}
   `;
   el.onclick = ()=>openProduct(p);
   return el;
