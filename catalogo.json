@@ -546,7 +546,7 @@
   {
     "id": "102025",
     "nombre": "Glicerina",
-    "img": "assets/images/Glicerina.png",
+    "img": "assets/images/Glicerina.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -591,7 +591,7 @@
   {
     "id": "102027",
     "nombre": "Limón",
-    "img": "assets/images/Limon.png",
+    "img": "assets/images/Limon.webp",
     "cats": [
       "Astringente"
     ],
@@ -796,7 +796,7 @@
   {
     "id": "102038",
     "nombre": "Sándalo",
-    "img": "assets/images/Sandalo.png",
+    "img": "assets/images/Sandalo.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -842,7 +842,7 @@
   {
     "id": "102040",
     "nombre": "Toronja y romero",
-    "img": "assets/images/Toronja_romero.png",
+    "img": "assets/images/Toronja_romero.webp",
     "cats": [
       "Astringente"
     ],
@@ -956,7 +956,7 @@
   {
     "id": "102045",
     "nombre": "Aloe vera y árnica",
-    "img": "assets/images/AloeVeraArnica.png",
+    "img": "assets/images/AloeVeraArnica.webp",
     "cats": [
       "Astringente"
     ],
@@ -1001,7 +1001,7 @@
   {
     "id": "102047",
     "nombre": "Aloe vera con Vitamina E",
-    "img": "assets/images/AloeVeraCVitaminaE.png",
+    "img": "assets/images/AloeVeraCVitaminaE.webp",
     "cats": [
       "Piel sensible"
     ],
@@ -1068,7 +1068,7 @@
   {
     "id": "102050",
     "nombre": "Azufre",
-    "img": "assets/images/Azufre.png",
+    "img": "assets/images/Azufre.webp",
     "cats": [
       "Exfoliante"
     ],
@@ -1114,7 +1114,7 @@
   {
     "id": "102052",
     "nombre": "Eucalipto con Bugambilia y Menta",
-    "img": "assets/images/Euca_Buga_Men.png",
+    "img": "assets/images/Euca_Buga_Men.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -1206,7 +1206,7 @@
   {
     "id": "102056",
     "nombre": "Miel con canela y pétalos de rosa",
-    "img": "assets/images/Miel_canela_petalos.png",
+    "img": "assets/images/Miel_canela_petalos.webp",
     "cats": [
       "Exfoliante"
     ],
