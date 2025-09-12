@@ -71,6 +71,12 @@
     .card img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
     .card h3{font-size:16px;margin:10px 12px 2px}
     .tagline{color:#555;margin:0 12px 12px;font-size:13px;min-height:34px}
+	/* Datos (forma · tamaño) debajo de la tagline, a la derecha */
+	.card .meta-row{
+		display:flex;
+		justify-content:flex-end;
+		margin:0 12px 10px;
+}
 	/* Fila de título con datos a la derecha */
 	.card .meta{
 		margin-left:auto;
@@ -203,13 +209,16 @@ function productCard(p){
     <h3>${p.nombre}</h3>
 <p class="tagline">${p.beneficios[0] ?? ''}</p>
 ${(p.forma || p.tamano)
-  ? `<div class="meta-row">
-       <span class="meta">
-         ${p.forma ? p.forma : ''}${p.forma && p.tamano ? ' · ' : ''}${p.tamano || ''}
-       </span>
-     </div>`
-  : ''
+  ? `<h3>${p.nombre}</h3>
+<p class="tagline">${p.beneficios[0] ?? ''}</p>
+${(p.forma || p.tamano) ? `
+  <div class="meta-row">
+    <span class="meta">
+      ${p.forma ?? ''}${p.forma && p.tamano ? ' · ' : ''}${p.tamano ?? ''}
+    </span>
+  </div>` : ''
 }
+
   `;
   el.onclick = ()=>openProduct(p);
   return el;
