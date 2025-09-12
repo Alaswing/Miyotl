@@ -71,6 +71,24 @@
     .card img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
     .card h3{font-size:16px;margin:10px 12px 2px}
     .tagline{color:#555;margin:0 12px 12px;font-size:13px;min-height:34px}
+	/* Fila de título con datos a la derecha */
+	.card .title-row{
+		display:flex;
+		align-items:baseline;
+		gap:8px;
+		margin:10px 12px 2px;  /* mismo espacio que h3 tenía */
+}
+	.card .title-row h3{
+		margin:0;
+		font-size:16px;
+}
+	.card .meta{
+		margin-left:auto;
+		font-size:13px;
+		color:#666;
+		text-align:right;      /* alineación a la derecha SOLO para estos datos */
+		white-space:nowrap;    /* evita salto de línea en "Barra · 120 g" */
+}
 
     /* Modal genérico */
     .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.38);padding:20px;z-index:1000}
@@ -100,8 +118,14 @@
 <header class="headline">
   <!-- Usa otra imagen para diferenciar del home -->
   <img class="top-banner" src="Assets/Images/catalogo-banner.webp">
-  <div class="nav-under-banner">
-	</div>
+  <nav class="nav-under-banner">
+	<a href="index.html">Inicio</a>
+	<a href="nosotros.html">Nosotros</a>
+	<a href="catalogo.html">Catálogo</a>
+	<a href="distribuidor.html">Quiero ser distribuidor</a>
+	<a href="politicas.html">Políticas</a>
+	<a href="aviso.html">Aviso de privacidad</a>
+</nav>
  </header>
  
 <div class="filters-wrap">
@@ -181,8 +205,13 @@ function productCard(p){
   el.dataset.cats = p.cats.join(',');
   el.innerHTML = `
     <img src="${p.img}" alt="${p.nombre}">
-    <h3>${p.nombre}</h3>
-    <p class="tagline">${p.beneficios[0] ?? ''}</p>
+    <div class="title-row">
+  <h3>${p.nombre}</h3>
+  <span class="meta">
+    ${p.forma ? p.forma : ''}${p.forma && p.tamano ? ' · ' : ''}${p.tamano ? (p.tamano + ' g') : ''}
+  </span>
+</div>
+<p class="tagline">${p.beneficios[0] ?? ''}</p>
   `;
   el.onclick = ()=>openProduct(p);
   return el;
