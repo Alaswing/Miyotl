@@ -15,53 +15,9 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Por los borániccos potentes, no recomendado para piel muy reactiva. Prueba de parche primero.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "108001",
-    "nombre": "Abre Caminos",
-    "img": "assets/images/B-Abrecaminos.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma herbal intenso que deja sensación limpia y vigorizante.",
-      "Limpieza amable con base de glicerina, enjuague fácil.",
-      "Ideal para rutinas matutinas cuando buscas un efecto despeje."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Por los borániccos potentes, no recomendado para piel muy reactiva. Prueba de parche primero.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "102044",
-    "nombre": "Abre Caminos con miel",
-    "img": "assets/images/Abre_caminos_miel.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Aroma herbal intenso con toque dulce que convierte la ducha en un momento reconfortante.",
-      "sensación fresca y de limpieza al enjuagar.",
-      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que deja tacto cómodo.",
-      "Ideal para quienes buscan un perfil verde con un matiz cálido de miel."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
@@ -82,7 +38,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Contiene compuestos aromáticos potencialmente sensibilizantes → No sensible (NS) · Alergeno (AL).",
     "familia": "Jabon solido"
@@ -105,56 +61,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Si tiene alergia a frutos secos o piel muy reactiva, mejor elija entre nuestros jabónes \"Sencibles\" o pruebe otra fragancia de esta línea.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103003",
-    "nombre": "Almendras",
-    "img": "assets/images/B-Almendras.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma suave y cálido tipo mazapán que acompaña sin invadir.",
-      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
-      "Aporta confort y sensación emoliente en piel normal a seca.",
-      "Espuma cremosa que hace la rutina rápida y agradable.",
-      "Ideal para baño nocturno por su perfil reconfortante."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Si tiene alergia a frutos secos o piel muy reactiva, mejor elija entre nuestros jabónes \"Sencibles\" o pruebe otra fragancia de esta línea.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108003",
-    "nombre": "Almendras",
-    "img": "assets/images/B-Almendras.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma suave y cálido tipo mazapán que acompaña sin invadir.",
-      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
-      "Aporta confort y sensación emoliente en piel normal a seca.",
-      "Espuma cremosa que hace la rutina rápida y agradable.",
-      "Ideal para baño nocturno por su perfil reconfortante."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Si tiene alergia a frutos secos o piel muy reactiva, mejor elija entre nuestros jabónes \"Sencibles\" o pruebe otra fragancia de esta línea.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102004",
@@ -174,7 +84,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Si tiene piel muy reactiva o alergia a frutos secos, pruebe mejor nuestro jabón de Avena.",
     "familia": "Jabon solido"
@@ -196,75 +106,9 @@
     "tags": [
       "S"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "103005",
-    "nombre": "Aloe vera",
-    "img": "assets/images/B-AloeVera.webp",
-    "cats": [
-      "Piel sensible"
-    ],
-    "beneficios": [
-      "Humectacion inmediata: ayuda a retener agua y reduce la sensación de tirantez.",
-      "Efecto calmante y refrescante tras ducha; acompaña pieles que se irritan fácil.",
-      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
-      "Aporta confort en climas calurosos o después de exposición solar ligera.",
-      "Espuma ligera pensada para uso cotidiano y pieles que buscan suavidad."
-    ],
-    "tags": [
-      "S"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108005",
-    "nombre": "Aloe Vera",
-    "img": "assets/images/B-AloeVera.webp",
-    "cats": [
-      "Piel sensible"
-    ],
-    "beneficios": [
-      "Humectacion inmediata: ayuda a retener agua y reduce la sensación de tirantez.",
-      "Efecto calmante y refrescante tras ducha; acompaña pieles que se irritan fácil.",
-      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
-      "Aporta confort en climas calurosos o después de exposición solar ligera.",
-      "Espuma ligera pensada para uso cotidiano y pieles que buscan suavidad."
-    ],
-    "tags": [
-      "S"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "102047",
-    "nombre": "Aloe vera con Vitamina E",
-    "img": "assets/images/AloeVeraCVitaminaE.png",
-    "cats": [
-      "Piel sensible"
-    ],
-    "beneficios": [
-      "Hidratacion y confort: aloe que ayuda a reducir la sensación de tirantez tras el baño.",
-      "Con vitamina E (antioxidante) para una sensación de suavidad al tacto.",
-      "Base de glicerina: limpieza gentil y enjuague fácil, sin residuo pegajoso.",
-      "Espuma ligera pensada para uso diario.",
-      "Perfil neutro y amable, ideal cuando no quieres aromas intensos."
-    ],
-    "tags": [
-      "S"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
@@ -284,54 +128,9 @@
     "tags": [
       "S"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102045",
-    "nombre": "Aloe vera y árnica",
-    "img": "assets/images/AloeVeraArnica.png",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "sensación refrescante del aloe en una limpieza suave y de enjuague fácil.",
-      "Aroma herbal con toque verde que deja sensación limpia al terminar.",
-      "Espuma ligera/cremosa que no satura y aporta confort en la ducha.",
-      "Ideal para quienes disfrutan perfiles verdes tipo spa."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102046",
-    "nombre": "Aloe vera y miel",
-    "img": "assets/images/Aloe_vera.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "sensación fresca del aloe en una limpieza suave y de enjuague fácil.",
-      "Toque confortable y cremoso gracias a la miel.",
-      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
-      "Ideal para quien busca un perfil dulce–herbal sin resultar empalagoso.",
-      "Perfecto para una rutina nocturna o climas secos."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Contiene derivados de abeja; si tu piel es muy reactiva, realiza prueba de parche. Evita el contorno de ojos. Si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
@@ -352,7 +151,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evitar uso si hay alergia a salicilatos/aspirina. Haz prueba de parche. Si reseca, reduce frecuencia (dia por medio).",
     "familia": "Jabon solido"
@@ -375,7 +174,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos. Haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
@@ -398,78 +197,9 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos. No recomendado para piel muy reactiva. Evita rostro/contorno de ojos y piel lesionada o irritada. Haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "103009",
-    "nombre": "Árnica",
-    "img": "assets/images/B_Árnica.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma herbal intenso que acompaña rutinas post-dia/post-entreno con sensación reconfortante.",
-      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
-      "Aporta una sensación de frescura al finalizar el baño.",
-      "Espuma ligera que no satura; ideal para uso en cuerpo.",
-      "Deja la piel con tacto limpio y aroma verde tipo spa."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. No recomendado para piel muy reactiva. Evita rostro/contorno de ojos y piel lesionada o irritada. Haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108009",
-    "nombre": "Árnica",
-    "img": "assets/images/B_Árnica.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma herbal intenso que acompaña rutinas post-dia/post-entreno con sensación reconfortante.",
-      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
-      "Aporta una sensación de frescura al finalizar el baño.",
-      "Espuma ligera que no satura; ideal para uso en cuerpo.",
-      "Deja la piel con tacto limpio y aroma verde tipo spa."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. No recomendado para piel muy reactiva. Evita rostro/contorno de ojos y piel lesionada o irritada. Haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "102048",
-    "nombre": "Árnica y Vitamina E",
-    "img": "assets/images/Arnica_vitamina_e.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Aroma herbal que acompaña la ducha con una sensación fresca.",
-      "Vitamina E (antioxidante) que aporta sensación de suavidad al tacto.",
-      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que deja tacto cómodo.",
-      "Perfil tipo spa verde para quienes disfrutan notas botánicas marcadas."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
@@ -489,8 +219,8 @@
     "tags": [
       "S"
     ],
-    "forma": "Barra",
-    "tamano": "100 g",
+    "forma": "solido",
+    "tamano": "120 g",
     "notaAdvertencia": "",
     "familia": "Jabon solido"
   },
@@ -511,54 +241,10 @@
     "tags": [
       "S"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "102049",
-    "nombre": "Arroz exfoliante",
-    "img": "assets/images/Exfoliante_arroz.webp",
-    "cats": [
-      "Exfoliante"
-    ],
-    "beneficios": [
-      "Exfoliación física suave con arroz molido: ayuda a remover células muertas y a mejorar el tacto.",
-      "Deja la piel mas lisa en zonas asperas (codos, rodillas, talones).",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que no satura.",
-      "Perfecto como complemento 2–3 veces por semana."
-    ],
-    "tags": [
-      "NS"
-    ],
-    "forma": "Barra",
-    "tamano": "120 g",
-    "notaAdvertencia": "Evita rostro/ojos y piel irritada.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "103059",
-    "nombre": "Avena",
-    "img": "assets/images/B_Avena.webp",
-    "cats": [
-      "Piel sensible"
-    ],
-    "beneficios": [
-      "Sensación de calma y suavidad para piel que se irrita fácil.",
-      "Base de glicerina: limpieza gentil y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera pensada para uso diario.",
-      "Ayuda a reducir la sensación de tirantez post-ducha.",
-      "Perfil neutro"
-    ],
-    "tags": [
-      "S"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos.",
-    "familia": "Jabon liquido"
   },
   {
     "id": "102012",
@@ -578,33 +264,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Evitar en personas con alergia a productos de abeja o piel muy reactiva. Haz prueba de parche.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "108012",
-    "nombre": "Avena miel",
-    "img": "assets/images/B_Avena_Miel.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma dulce y reconfortante que hace mas agradable la rutina.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "La avena aporta suavidad y sensación de confort tras el baño.",
-      "Espuma cremosa ideal para climas secos o uso nocturno.",
-      "Deja tacto mas flexible cuando se seca sin fricción."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Evitar en personas con alergia a productos de abeja o piel muy reactiva. Haz prueba de parche.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102013",
@@ -624,55 +287,9 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "En piel muy reactiva o con antecedentes de sensibilidad a fragancias, mejor elegir tu Avena sin perfume.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "108013",
-    "nombre": "Avena para bebe",
-    "img": "assets/images/B_Avena.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma suave “bebe” que aporta sensación de confort y limpieza fresca.",
-      "Base de glicerina: limpieza gentil, enjuague fácil, sin sensación pegajosa.",
-      "La avena ayuda a dejar la piel con tacto mas suave tras el baño.",
-      "Espuma ligera/cremosa que hace la rutina rápida y agradable.",
-      "Ideal para quien busca un aroma tierno sin notas intensas."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "En piel muy reactiva o con antecedentes de sensibilidad a fragancias, mejor elegir tu Avena sin perfume.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "102050",
-    "nombre": "Azufre",
-    "img": "assets/images/Azufre.png",
-    "cats": [
-      "Exfoliante"
-    ],
-    "beneficios": [
-      "Limpieza profunda con sensación purificante al enjuagar.",
-      "Ayuda a que la piel se sienta menos brillante y con textura mas uniforme con uso constante.",
-      "Base de glicerina: enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera, pensada para piel mixta/grasa en rutina diurna.",
-      "opción ideal cuando buscas un reset después de calor o actividad."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede resecar en piel sensible. Evita rostro y contorno de ojos. usalo max. 1 vez al dia (o dias alternos si notas tirantez). Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
@@ -693,7 +310,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos y realiza prueba de parche.",
     "familia": "Jabon solido"
@@ -716,7 +333,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Evita en rostro, piel muy reactiva, irritada o con dermatitis/rosacea.",
     "familia": "Jabon solido"
@@ -738,7 +355,7 @@
     "tags": [
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Precaución en personas alérgicas a Asteraceae. Haz prueba de parche en piel muy reactiva.",
     "familia": "Jabon solido"
@@ -761,7 +378,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede irritar piel reactiva o zonas sensibles. Evita rostro/ojos y mucosas. Haz prueba de parche; si irrita, suspende. No recomendado para niños pequeños.",
     "familia": "Jabon solido"
@@ -784,7 +401,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede resecar en piel seca o muy reactiva. Evita el contorno de ojos y zonas irritadas. Si sientes tirantez, reduce frecuencia (dia por medio).",
     "familia": "Jabon solido"
@@ -806,31 +423,9 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos. Haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102078",
-    "nombre": "Cempasuchil",
-    "img": "assets/images/Img_ndisponible.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Aroma floral–herbal inspirado en el cempasuchil que deja una sensación fresca al enjuagar.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que aporta confort en la ducha.",
-      "Perfil vivo y festivo ideal para temporadas especiales o quien disfruta notas botánicas."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
@@ -851,56 +446,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Evita en piel muy reactiva y el contorno de ojos, usar max. 2–3 veces/semana.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103020",
-    "nombre": "Chocolate",
-    "img": "assets/images/B_Chocolate.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma gourmand cálido tipo cacao que vuelve el baño reconfortante.",
-      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
-      "Deja tacto mas flexible; buena opción para piel normal a seca.",
-      "Espuma cremosa ideal para rutina nocturna o climas frios.",
-      "Perfil sensorial envolvente sin llegar a empalagar."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Evita en piel muy reactiva y el contorno de ojos, usar max. 2–3 veces/semana.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108020",
-    "nombre": "Chocolate",
-    "img": "assets/images/B_Chocolate.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma gourmand cálido tipo cacao que vuelve el baño reconfortante.",
-      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
-      "Deja tacto mas flexible; buena opción para piel normal a seca.",
-      "Espuma cremosa ideal para rutina nocturna o climas frios.",
-      "Perfil sensorial envolvente sin llegar a empalagar."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Evita en piel muy reactiva y el contorno de ojos, usar max. 2–3 veces/semana.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102021",
@@ -920,7 +469,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evita contorno de ojos y haz prueba de parche.",
     "familia": "Jabon solido"
@@ -943,102 +492,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evita contorno de ojos y haz prueba de parche.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103022",
-    "nombre": "Coco",
-    "img": "assets/images/B_Coco.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma tropical cremoso que convierte la ducha en un momento reconfortante.",
-      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
-      "sensación emoliente que deja el tacto mas flexible tras el secado.",
-      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
-      "Perfil sensorial cálido que acompaña sin volverse invasivo."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita contorno de ojos y haz prueba de parche.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108022",
-    "nombre": "Coco",
-    "img": "assets/images/B_Coco.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma tropical cremoso que convierte la ducha en un momento reconfortante.",
-      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
-      "sensación emoliente que deja el tacto mas flexible tras el secado.",
-      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
-      "Perfil sensorial cálido que acompaña sin volverse invasivo."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita contorno de ojos y haz prueba de parche.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "103066",
-    "nombre": "Coco con miel",
-    "img": "assets/images/B_Coco.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma tropical y cálido con toque cremoso–dulce que hace la ducha reconfortante.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma cremosa que deja tacto cómodo al secar.",
-      "sensación emoliente ideal para climas secos o rutina nocturna.",
-      "Perfil sensorial envolvente que acompaña sin empalagar"
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Contiene derivados de abeja y fragancia; puede incluir alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108066",
-    "nombre": "Coco con miel",
-    "img": "assets/images/B_Coco.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma tropical y cálido con toque cremoso–dulce que hace la ducha reconfortante.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma cremosa que deja tacto cómodo al secar.",
-      "sensación emoliente ideal para climas secos o rutina nocturna.",
-      "Perfil sensorial envolvente que acompaña sin empalagar"
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Contiene derivados de abeja y fragancia; puede incluir alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102023",
@@ -1058,192 +515,9 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Evita rostro/ojos, piel irritada o muy reactiva. usalo max. 2–3 veces/semana para no sobre-exfoliar y haz prueba de parche.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102051",
-    "nombre": "Durazno",
-    "img": "assets/images/Durazno.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma frutal jugoso que vuelve la ducha fresca y alegre.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
-      "Perfil dulce y suave que acompaña sin empalagar.",
-      "Ideal para rutina diurna o climas cálidos."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102052",
-    "nombre": "Eucalipto con Bugambilia y Menta",
-    "img": "assets/images/Euca_Buga_Men.png",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Sensación fresca y vigorizante: menta + eucalipto para un baño que despeja.",
-      "Astringencia ligera: la piel se siente con menos brillo tras el lavado.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera ideal para rutina diurna o después de actividad.",
-      "Toque floral de bugambilia que suaviza el perfil herbal sin invadir."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Evita contorno de ojos y mucosas. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "108052",
-    "nombre": "Eucalipto con Bugambilia y Menta",
-    "img": "assets/images/B_Euca_Buga_Menta.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Sensación fresca y vigorizante: menta + eucalipto para un baño que despeja.",
-      "Astringencia ligera: la piel se siente con menos brillo tras el lavado.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera ideal para rutina diurna o después de actividad.",
-      "Toque floral de bugambilia que suaviza el perfil herbal sin invadir."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Evita contorno de ojos y mucosas. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "103069",
-    "nombre": "Frutos rojos",
-    "img": "assets/images/B_Frutosrojos.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma frutal jugoso (berries) que hace la ducha alegre y fresca.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
-      "Perfil dulce y vibrante que acompaña sin empalagar.",
-      "Ideal para rutina diurna o climas cálidos."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108069",
-    "nombre": "Frutos rojos",
-    "img": "assets/images/B_Frutosrojos.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma frutal jugoso (berries) que hace la ducha alegre y fresca.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
-      "Perfil dulce y vibrante que acompaña sin empalagar.",
-      "Ideal para rutina diurna o climas cálidos."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "102053",
-    "nombre": "Gengibre con limón, curcuma y canela",
-    "img": "assets/images/Img_ndisponible.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma cítrico–especiado que activa la rutina y deja sensación fresca.",
-      "Astringencia ligera: piel con menos brillo tras el lavado.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que acompaña sin empalagar.",
-      "Perfil sensorial energizante ideal para la mañana."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede contener alergenos aromáticos y compuestos fotosensibilizantes. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102054",
-    "nombre": "Gengibre con naranja, curcuma y canela",
-    "img": "assets/images/Img_ndisponible.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma cítrico–especiado (naranja + jengibre) que activa y deja sensación fresca.",
-      "Astringencia ligera: piel con menos brillo tras el lavado.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que acompaña sin empalagar.",
-      "Perfil sensorial energizante ideal para la mañana o climas cálidos."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede contener alergenos aromáticos y compuestos fotosensibilizantes. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102025",
-    "nombre": "Glicerina",
-    "img": "assets/images/Glicerina.png",
-    "cats": [
-      "Piel sensible"
-    ],
-    "beneficios": [
-      "Limpieza amable con base de glicerina, pensada para uso cotidiano.",
-      "Enjuaguerápido, sin sensación pegajosa.",
-      "Espuma ligera que no satura la piel.",
-      "Deja tacto cómodo y apariencia limpia.",
-      "Opción neutra cuando no quieres botánicos intensos."
-    ],
-    "tags": [
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "",
     "familia": "Jabon solido"
   },
   {
@@ -1264,33 +538,32 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Contiene derivados lácteos. Evitar en personas con alergia a la leche y en piel muy reactiva y haz prueba de parche.",
     "familia": "Jabon solido"
   },
   {
-    "id": "108070",
-    "nombre": "Jengibre con limón, cúrcuma y canela",
-    "img": "assets/images/No_disp_2.webp",
+    "id": "102025",
+    "nombre": "Glicerina",
+    "img": "assets/images/Glicerina.png",
     "cats": [
-      "Aromáticos"
+      "Piel sensible"
     ],
     "beneficios": [
-      "Aroma cítrico–especiado que activa y deja sensación fresca.",
-      "Astringencia ligera: piel con menos brillo tras el lavado.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que acompaña sin empalagar.",
-      "Perfil energizante ideal para la mañana."
+      "Limpieza amable con base de glicerina, pensada para uso cotidiano.",
+      "Enjuaguerápido, sin sensación pegajosa.",
+      "Espuma ligera que no satura la piel.",
+      "Deja tacto cómodo y apariencia limpia.",
+      "Opción neutra cuando no quieres botánicos intensos."
     ],
     "tags": [
-      "NS",
       "AL"
     ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "puede contener alergenos aromáticos y compuestos fotosensibilizantes. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "",
+    "familia": "Jabon solido"
   },
   {
     "id": "102026",
@@ -1310,33 +583,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Evitar en piel muy reactiva y contorno de ojos. Prueba de parche.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "108026",
-    "nombre": "Lavanda",
-    "img": "assets/images/B_Lavanda.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma floral-relajante tipo spa, ideal para rutina nocturna.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera/cremosa que deja tacto cómodo tras el secado.",
-      "Acompaña una sensación de desconexión al final del dia.",
-      "Perfil aromático suave."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Evitar en piel muy reactiva y contorno de ojos. Prueba de parche.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102027",
@@ -1356,56 +606,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos. Haz prueba de parche.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103027",
-    "nombre": "Limón",
-    "img": "assets/images/B_Limon.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Aroma cítrico brillante que deja sensación fresca y limpia al enjuagar.",
-      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera, ideal para rutina diurna en piel normal/mixta.",
-      "Perfil aromático que activa la rutina sin volverse invasivo."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos. Haz prueba de parche.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108027",
-    "nombre": "Limón",
-    "img": "assets/images/B_Limon.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Aroma cítrico brillante que deja sensación fresca y limpia al enjuagar.",
-      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera, ideal para rutina diurna en piel normal/mixta.",
-      "Perfil aromático que activa la rutina sin volverse invasivo."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos. Haz prueba de parche.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102028",
@@ -1425,7 +629,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede irritar piel muy reactiva. Evita rostro/ojos y mucosas. Haz prueba de parche; si irrita, suspende. Usar max. 2–3 veces/semana.",
     "familia": "Jabon solido"
@@ -1447,76 +651,9 @@
     "tags": [
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Precaución en personas con alergia a Asteraceae. Prueba de parche en piel muy reactiva.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "103029",
-    "nombre": "Manzanilla",
-    "img": "assets/images/B_Manzanilla.webp",
-    "cats": [
-      "Piel sensible"
-    ],
-    "beneficios": [
-      "sensación de calma y confort tras el baño, pensada para rutinas suaves.",
-      "Base de glicerina: limpieza gentil, enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera para uso diario en piel que se irrita con facilidad.",
-      "Ayuda a disminuir la sensación de tirantez post-ducha.",
-      "Perfil neutro y amable (ideal sin aromas intensos)."
-    ],
-    "tags": [
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Precaución en personas con alergia a Asteraceae. Prueba de parche en piel muy reactiva.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108029",
-    "nombre": "Manzanilla",
-    "img": "assets/images/B_Manzanilla.webp",
-    "cats": [
-      "Piel sensible"
-    ],
-    "beneficios": [
-      "Sensación de calma y confort tras el baño, pensada para rutinas suaves.",
-      "Base de glicerina: limpieza gentil, enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera para uso diario en piel que se irrita con facilidad.",
-      "Ayuda a disminuir la sensación de tirantez post-ducha.",
-      "Perfil neutro y amable (ideal sin aromas intensos)."
-    ],
-    "tags": [
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Precaución en personas con alergia a Asteraceae. Prueba de parche en piel muy reactiva.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "102031",
-    "nombre": "Menta",
-    "img": "assets/images/Menta.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Sensación fresca y vigorizante gracias al perfil mentolado; ideal para baño matutino.",
-      "Astringencia ligera: deja la piel con sensación menos brillante tras el lavado.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera que no satura; buena para climas cálidos o después de actividad.",
-      "Aroma herbal-menta que “despeja” sin volverse invasivo"
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Evita rostro/contorno de ojos y mucosas (puede arder). No recomendado para piel muy reactiva. Haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
@@ -1537,171 +674,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Evitar en personas con alergia a productos de abeja y en piel muy reactiva. Se recomienda prueba de parche. No usar en contorno de ojos.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103032",
-    "nombre": "Miel",
-    "img": "assets/images/B_Miel.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma dulce y reconfortante que hace la ducha mas agradable.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Deja tacto mas flexible y sensación de confort tras el secado.",
-      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
-      "Perfil sensorial cálido que acompaña sin volverse invasivo."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Evitar en personas con alergia a productos de abeja y en piel muy reactiva. Se recomienda prueba de parche. No usar en contorno de ojos.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108032",
-    "nombre": "Miel",
-    "img": "assets/images/B_Miel.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma dulce y reconfortante que hace la ducha mas agradable.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Deja tacto mas flexible y sensación de confort tras el secado.",
-      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
-      "Perfil sensorial cálido que acompaña sin volverse invasivo."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Evitar en personas con alergia a productos de abeja y en piel muy reactiva. Se recomienda prueba de parche. No usar en contorno de ojos.",
-    "familia": "Jabon corporal"
-  },
-  {
-    "id": "102055",
-    "nombre": "Miel con canela",
-    "img": "assets/images/Miel_Canela.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma dulce-especiado que vuelve la ducha reconfortante.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma cremosa que deja tacto cómodo tras el secado.",
-      "Perfil cálido ideal para rutina nocturna o climas frescos.",
-      "Combina nota miel con toque canela sin empalagar"
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Contiene derivados de abeja y fragancia especiada; puede incluir alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102056",
-    "nombre": "Miel con canela y pétalos de rosa",
-    "img": "assets/images/Miel_canela_petalos.png",
-    "cats": [
-      "Exfoliante"
-    ],
-    "beneficios": [
-      "Aroma dulce–floral con toque especiado que vuelve la ducha reconfortante y elegante.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma cremosa que deja tacto cómodo al secar.",
-      "Los petalos de rosa aportan un detalle sensorial y visual tipo spa.",
-      "Ideal para rutina nocturna o climas frescos."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede incluir alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, realiza prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102057",
-    "nombre": "Neem",
-    "img": "assets/images/Img_ndisponible.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Sensación purificante y de limpieza profunda al enjuagar.",
-      "Ayuda a que la piel se sienta menos brillante y con textura mas uniforme con uso constante.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera, pensada para rutinas diurnas en piel mixta/grasa.",
-      "Perfil aromático terroso/herbal caracteristico del neem"
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede sensibilizar piel muy reactiva. Evita el contorno de ojos. Si tu piel es muy sensible, realiza prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "102058",
-    "nombre": "Neem con caléndula",
-    "img": "assets/images/Img_ndisponible.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Sensación purificante y de limpieza profunda al enjuagar (neem).",
-      "Piel con menos brillo y apariencia mas uniforme con uso constante.",
-      "Toque de confort gracias a la caléndula, para una rutina mas amable.",
-      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera pensada para piel mixta/grasa en rutina diurna."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Barra",
-    "tamano": "100 g",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon solido"
-  },
-  {
-    "id": "108058",
-    "nombre": "Neem con caléndula",
-    "img": "assets/images/No_disp_2.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Sensación purificante y de limpieza profunda al enjuagar (neem).",
-      "Piel con menos brillo y apariencia mas uniforme con uso constante.",
-      "Toque de confort gracias a la caléndula, para una rutina mas amable.",
-      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera pensada para piel mixta/grasa en rutina diurna."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102033",
@@ -1721,56 +697,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos; no recomendado para piel muy reactiva. Evita contorno de ojos y mucosas. Prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103033",
-    "nombre": "Romero",
-    "img": "assets/images/B-Romero.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Aroma herbal fresco que deja sensación limpia y despejada tras el enjuague.",
-      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera, ideal para rutina diurna o post-actividad.",
-      "Perfil aromático que activa sin volverse invasivo"
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos; no recomendado para piel muy reactiva. Evita contorno de ojos y mucosas. Prueba de parche; si irrita, suspende.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108033",
-    "nombre": "Romero",
-    "img": "assets/images/B-Romero.webp",
-    "cats": [
-      "Astringente"
-    ],
-    "beneficios": [
-      "Aroma herbal fresco que deja sensación limpia y despejada tras el enjuague.",
-      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma ligera, ideal para rutina diurna o post-actividad.",
-      "Perfil aromático que activa sin volverse invasivo"
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos; no recomendado para piel muy reactiva. Evita contorno de ojos y mucosas. Prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102034",
@@ -1790,7 +720,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos. No recomendado para piel muy reactiva. Evita contorno de ojos. Haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
@@ -1813,7 +743,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "No recomendado para piel muy reactiva. Evitar rostro/contorno de ojos y piel lesionada. Prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
@@ -1836,56 +766,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Fragancia floral; puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103036",
-    "nombre": "Rosa de Castilla",
-    "img": "assets/images/B_Rosa_castilla.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma floral elegante que convierte la ducha en un momento relajante.",
-      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
-      "Deja tacto cómodo y una sensación de piel fresca al secar.",
-      "Espuma ligera/cremosa ideal para una rutina nocturna tipo spa.",
-      "Perfil aromático sofisticado que acompaña sin invadir."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Fragancia floral; puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108036",
-    "nombre": "Rosa de Castilla",
-    "img": "assets/images/B_Rosa_castilla.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma floral elegante que convierte la ducha en un momento relajante.",
-      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
-      "Deja tacto cómodo y una sensación de piel fresca al secar.",
-      "Espuma ligera/cremosa ideal para una rutina nocturna tipo spa.",
-      "Perfil aromático sofisticado que acompaña sin invadir."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Fragancia floral; puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102037",
@@ -1904,7 +788,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
@@ -1927,7 +811,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Fragancia amaderada; puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
@@ -1950,7 +834,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Evita contorno de ojos y piel irritada. Usar 2–3 veces por semana.",
     "familia": "Jabon solido"
@@ -1973,7 +857,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
@@ -1996,56 +880,10 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
-  },
-  {
-    "id": "103041",
-    "nombre": "Vainilla",
-    "img": "assets/images/B_Vainilla.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma gourmand suave y reconfortante que envuelve sin empalagar.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma cremosa que deja tacto cómodo tras el secado.",
-      "Ideal para rutina nocturna o climas secos por su perfil cálido.",
-      "opción sensorial relajante para quien busca un baño “tipo postre”."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon liquido"
-  },
-  {
-    "id": "108041",
-    "nombre": "Vainilla",
-    "img": "assets/images/B_Vainilla.webp",
-    "cats": [
-      "Aromáticos"
-    ],
-    "beneficios": [
-      "Aroma gourmand suave y reconfortante que envuelve sin empalagar.",
-      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
-      "Espuma cremosa que deja tacto cómodo tras el secado.",
-      "Ideal para rutina nocturna o climas secos por su perfil cálido.",
-      "opción sensorial relajante para quien busca un baño “tipo postre”."
-    ],
-    "tags": [
-      "NS",
-      "AL"
-    ],
-    "forma": "Liquido",
-    "tamano": "1000 ml",
-    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
-    "familia": "Jabon corporal"
   },
   {
     "id": "102042",
@@ -2065,7 +903,7 @@
       "NS",
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, realiza prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
@@ -2087,15 +925,1132 @@
     "tags": [
       "AL"
     ],
-    "forma": "Barra",
+    "forma": "solido",
     "tamano": "100 g",
     "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
     "familia": "Jabon solido"
   },
   {
+    "id": "102044",
+    "nombre": "Abre Caminos con miel",
+    "img": "assets/images/Abre_caminos_miel.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Aroma herbal intenso con toque dulce que convierte la ducha en un momento reconfortante.",
+      "sensación fresca y de limpieza al enjuagar.",
+      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que deja tacto cómodo.",
+      "Ideal para quienes buscan un perfil verde con un matiz cálido de miel."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102045",
+    "nombre": "Aloe vera y árnica",
+    "img": "assets/images/AloeVeraArnica.png",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "sensación refrescante del aloe en una limpieza suave y de enjuague fácil.",
+      "Aroma herbal con toque verde que deja sensación limpia al terminar.",
+      "Espuma ligera/cremosa que no satura y aporta confort en la ducha.",
+      "Ideal para quienes disfrutan perfiles verdes tipo spa."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102046",
+    "nombre": "Aloe vera y miel",
+    "img": "assets/images/Aloe_vera.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "sensación fresca del aloe en una limpieza suave y de enjuague fácil.",
+      "Toque confortable y cremoso gracias a la miel.",
+      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
+      "Ideal para quien busca un perfil dulce–herbal sin resultar empalagoso.",
+      "Perfecto para una rutina nocturna o climas secos."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Contiene derivados de abeja; si tu piel es muy reactiva, realiza prueba de parche. Evita el contorno de ojos. Si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102047",
+    "nombre": "Aloe vera con Vitamina E",
+    "img": "assets/images/AloeVeraCVitaminaE.png",
+    "cats": [
+      "Piel sensible"
+    ],
+    "beneficios": [
+      "Hidratacion y confort: aloe que ayuda a reducir la sensación de tirantez tras el baño.",
+      "Con vitamina E (antioxidante) para una sensación de suavidad al tacto.",
+      "Base de glicerina: limpieza gentil y enjuague fácil, sin residuo pegajoso.",
+      "Espuma ligera pensada para uso diario.",
+      "Perfil neutro y amable, ideal cuando no quieres aromas intensos."
+    ],
+    "tags": [
+      "S"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102048",
+    "nombre": "Árnica y Vitamina E",
+    "img": "assets/images/Arnica_vitamina_e.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Aroma herbal que acompaña la ducha con una sensación fresca.",
+      "Vitamina E (antioxidante) que aporta sensación de suavidad al tacto.",
+      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que deja tacto cómodo.",
+      "Perfil tipo spa verde para quienes disfrutan notas botánicas marcadas."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102049",
+    "nombre": "Arroz exfoliante",
+    "img": "assets/images/Exfoliante_arroz.webp",
+    "cats": [
+      "Exfoliante"
+    ],
+    "beneficios": [
+      "Exfoliación física suave con arroz molido: ayuda a remover células muertas y a mejorar el tacto.",
+      "Deja la piel mas lisa en zonas asperas (codos, rodillas, talones).",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que no satura.",
+      "Perfecto como complemento 2–3 veces por semana."
+    ],
+    "tags": [
+      "NS"
+    ],
+    "forma": "solido",
+    "tamano": "120 g",
+    "notaAdvertencia": "Evita rostro/ojos y piel irritada.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102050",
+    "nombre": "Azufre",
+    "img": "assets/images/Azufre.png",
+    "cats": [
+      "Exfoliante"
+    ],
+    "beneficios": [
+      "Limpieza profunda con sensación purificante al enjuagar.",
+      "Ayuda a que la piel se sienta menos brillante y con textura mas uniforme con uso constante.",
+      "Base de glicerina: enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera, pensada para piel mixta/grasa en rutina diurna.",
+      "opción ideal cuando buscas un reset después de calor o actividad."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede resecar en piel sensible. Evita rostro y contorno de ojos. usalo max. 1 vez al dia (o dias alternos si notas tirantez). Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102051",
+    "nombre": "Durazno",
+    "img": "assets/images/Durazno.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma frutal jugoso que vuelve la ducha fresca y alegre.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
+      "Perfil dulce y suave que acompaña sin empalagar.",
+      "Ideal para rutina diurna o climas cálidos."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102052",
+    "nombre": "Eucalipto con Bugambilia y Menta",
+    "img": "assets/images/Euca_Buga_Men.png",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Sensación fresca y vigorizante: menta + eucalipto para un baño que despeja.",
+      "Astringencia ligera: la piel se siente con menos brillo tras el lavado.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera ideal para rutina diurna o después de actividad.",
+      "Toque floral de bugambilia que suaviza el perfil herbal sin invadir."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Evita contorno de ojos y mucosas. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102053",
+    "nombre": "Gengibre con limón, curcuma y canela",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma cítrico–especiado que activa la rutina y deja sensación fresca.",
+      "Astringencia ligera: piel con menos brillo tras el lavado.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que acompaña sin empalagar.",
+      "Perfil sensorial energizante ideal para la mañana."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede contener alergenos aromáticos y compuestos fotosensibilizantes. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102054",
+    "nombre": "Gengibre con naranja, curcuma y canela",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma cítrico–especiado (naranja + jengibre) que activa y deja sensación fresca.",
+      "Astringencia ligera: piel con menos brillo tras el lavado.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que acompaña sin empalagar.",
+      "Perfil sensorial energizante ideal para la mañana o climas cálidos."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede contener alergenos aromáticos y compuestos fotosensibilizantes. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102055",
+    "nombre": "Miel con canela",
+    "img": "assets/images/Miel_Canela.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma dulce-especiado que vuelve la ducha reconfortante.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma cremosa que deja tacto cómodo tras el secado.",
+      "Perfil cálido ideal para rutina nocturna o climas frescos.",
+      "Combina nota miel con toque canela sin empalagar"
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Contiene derivados de abeja y fragancia especiada; puede incluir alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102056",
+    "nombre": "Miel con canela y pétalos de rosa",
+    "img": "assets/images/Miel_canela_petalos.png",
+    "cats": [
+      "Exfoliante"
+    ],
+    "beneficios": [
+      "Aroma dulce–floral con toque especiado que vuelve la ducha reconfortante y elegante.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma cremosa que deja tacto cómodo al secar.",
+      "Los petalos de rosa aportan un detalle sensorial y visual tipo spa.",
+      "Ideal para rutina nocturna o climas frescos."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede incluir alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, realiza prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102057",
+    "nombre": "Neem",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Sensación purificante y de limpieza profunda al enjuagar.",
+      "Ayuda a que la piel se sienta menos brillante y con textura mas uniforme con uso constante.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera, pensada para rutinas diurnas en piel mixta/grasa.",
+      "Perfil aromático terroso/herbal caracteristico del neem"
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede sensibilizar piel muy reactiva. Evita el contorno de ojos. Si tu piel es muy sensible, realiza prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102058",
+    "nombre": "Neem con caléndula",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Sensación purificante y de limpieza profunda al enjuagar (neem).",
+      "Piel con menos brillo y apariencia mas uniforme con uso constante.",
+      "Toque de confort gracias a la caléndula, para una rutina mas amable.",
+      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera pensada para piel mixta/grasa en rutina diurna."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "103003",
+    "nombre": "Almendras",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma suave y cálido tipo mazapán que acompaña sin invadir.",
+      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
+      "Aporta confort y sensación emoliente en piel normal a seca.",
+      "Espuma cremosa que hace la rutina rápida y agradable.",
+      "Ideal para baño nocturno por su perfil reconfortante."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Si tiene alergia a frutos secos o piel muy reactiva, mejor elija entre nuestros jabónes \"Sencibles\" o pruebe otra fragancia de esta línea.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103005",
+    "nombre": "Aloe vera",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Piel sensible"
+    ],
+    "beneficios": [
+      "Humectacion inmediata: ayuda a retener agua y reduce la sensación de tirantez.",
+      "Efecto calmante y refrescante tras ducha; acompaña pieles que se irritan fácil.",
+      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
+      "Aporta confort en climas calurosos o después de exposición solar ligera.",
+      "Espuma ligera pensada para uso cotidiano y pieles que buscan suavidad."
+    ],
+    "tags": [
+      "S"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103009",
+    "nombre": "Árnica",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma herbal intenso que acompaña rutinas post-dia/post-entreno con sensación reconfortante.",
+      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
+      "Aporta una sensación de frescura al finalizar el baño.",
+      "Espuma ligera que no satura; ideal para uso en cuerpo.",
+      "Deja la piel con tacto limpio y aroma verde tipo spa."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. No recomendado para piel muy reactiva. Evita rostro/contorno de ojos y piel lesionada o irritada. Haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103059",
+    "nombre": "Avena",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Piel sensible"
+    ],
+    "beneficios": [
+      "Sensación de calma y suavidad para piel que se irrita fácil.",
+      "Base de glicerina: limpieza gentil y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera pensada para uso diario.",
+      "Ayuda a reducir la sensación de tirantez post-ducha.",
+      "Perfil neutro"
+    ],
+    "tags": [
+      "S"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103020",
+    "nombre": "Chocolate",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma gourmand cálido tipo cacao que vuelve el baño reconfortante.",
+      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
+      "Deja tacto mas flexible; buena opción para piel normal a seca.",
+      "Espuma cremosa ideal para rutina nocturna o climas frios.",
+      "Perfil sensorial envolvente sin llegar a empalagar."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Evita en piel muy reactiva y el contorno de ojos, usar max. 2–3 veces/semana.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103022",
+    "nombre": "Coco",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma tropical cremoso que convierte la ducha en un momento reconfortante.",
+      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
+      "sensación emoliente que deja el tacto mas flexible tras el secado.",
+      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
+      "Perfil sensorial cálido que acompaña sin volverse invasivo."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita contorno de ojos y haz prueba de parche.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103066",
+    "nombre": "Coco con miel",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma tropical y cálido con toque cremoso–dulce que hace la ducha reconfortante.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma cremosa que deja tacto cómodo al secar.",
+      "sensación emoliente ideal para climas secos o rutina nocturna.",
+      "Perfil sensorial envolvente que acompaña sin empalagar"
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Contiene derivados de abeja y fragancia; puede incluir alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103069",
+    "nombre": "Frutos rojos",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma frutal jugoso (berries) que hace la ducha alegre y fresca.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
+      "Perfil dulce y vibrante que acompaña sin empalagar.",
+      "Ideal para rutina diurna o climas cálidos."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103027",
+    "nombre": "Limón",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Aroma cítrico brillante que deja sensación fresca y limpia al enjuagar.",
+      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera, ideal para rutina diurna en piel normal/mixta.",
+      "Perfil aromático que activa la rutina sin volverse invasivo."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos. Haz prueba de parche.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103029",
+    "nombre": "Manzanilla",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Piel sensible"
+    ],
+    "beneficios": [
+      "sensación de calma y confort tras el baño, pensada para rutinas suaves.",
+      "Base de glicerina: limpieza gentil, enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera para uso diario en piel que se irrita con facilidad.",
+      "Ayuda a disminuir la sensación de tirantez post-ducha.",
+      "Perfil neutro y amable (ideal sin aromas intensos)."
+    ],
+    "tags": [
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Precaución en personas con alergia a Asteraceae. Prueba de parche en piel muy reactiva.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103032",
+    "nombre": "Miel",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma dulce y reconfortante que hace la ducha mas agradable.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Deja tacto mas flexible y sensación de confort tras el secado.",
+      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
+      "Perfil sensorial cálido que acompaña sin volverse invasivo."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Evitar en personas con alergia a productos de abeja y en piel muy reactiva. Se recomienda prueba de parche. No usar en contorno de ojos.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103036",
+    "nombre": "Rosa de Castilla",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma floral elegante que convierte la ducha en un momento relajante.",
+      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
+      "Deja tacto cómodo y una sensación de piel fresca al secar.",
+      "Espuma ligera/cremosa ideal para una rutina nocturna tipo spa.",
+      "Perfil aromático sofisticado que acompaña sin invadir."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Fragancia floral; puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103033",
+    "nombre": "Romero",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Aroma herbal fresco que deja sensación limpia y despejada tras el enjuague.",
+      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera, ideal para rutina diurna o post-actividad.",
+      "Perfil aromático que activa sin volverse invasivo"
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos; no recomendado para piel muy reactiva. Evita contorno de ojos y mucosas. Prueba de parche; si irrita, suspende.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "103041",
+    "nombre": "Vainilla",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma gourmand suave y reconfortante que envuelve sin empalagar.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma cremosa que deja tacto cómodo tras el secado.",
+      "Ideal para rutina nocturna o climas secos por su perfil cálido.",
+      "opción sensorial relajante para quien busca un baño “tipo postre”."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon liquido"
+  },
+  {
+    "id": "108001",
+    "nombre": "Abre caminos",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma herbal intenso que deja sensación limpia y vigorizante.",
+      "Limpieza amable con base de glicerina, enjuague fácil.",
+      "Ideal para rutinas matutinas cuando buscas un efecto despeje."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Por los borániccos potentes, no recomendado para piel muy reactiva. Prueba de parche primero.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108003",
+    "nombre": "Almendras",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma suave y cálido tipo mazapán que acompaña sin invadir.",
+      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
+      "Aporta confort y sensación emoliente en piel normal a seca.",
+      "Espuma cremosa que hace la rutina rápida y agradable.",
+      "Ideal para baño nocturno por su perfil reconfortante."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Si tiene alergia a frutos secos o piel muy reactiva, mejor elija entre nuestros jabónes \"Sencibles\" o pruebe otra fragancia de esta línea.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108005",
+    "nombre": "Aloe Vera",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Piel sensible"
+    ],
+    "beneficios": [
+      "Humectacion inmediata: ayuda a retener agua y reduce la sensación de tirantez.",
+      "Efecto calmante y refrescante tras ducha; acompaña pieles que se irritan fácil.",
+      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
+      "Aporta confort en climas calurosos o después de exposición solar ligera.",
+      "Espuma ligera pensada para uso cotidiano y pieles que buscan suavidad."
+    ],
+    "tags": [
+      "S"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108009",
+    "nombre": "Árnica",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma herbal intenso que acompaña rutinas post-dia/post-entreno con sensación reconfortante.",
+      "Base de glicerina: limpieza suave, enjuague fácil, sin sensación pegajosa.",
+      "Aporta una sensación de frescura al finalizar el baño.",
+      "Espuma ligera que no satura; ideal para uso en cuerpo.",
+      "Deja la piel con tacto limpio y aroma verde tipo spa."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. No recomendado para piel muy reactiva. Evita rostro/contorno de ojos y piel lesionada o irritada. Haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108013",
+    "nombre": "Avena para bebe",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma suave “bebe” que aporta sensación de confort y limpieza fresca.",
+      "Base de glicerina: limpieza gentil, enjuague fácil, sin sensación pegajosa.",
+      "La avena ayuda a dejar la piel con tacto mas suave tras el baño.",
+      "Espuma ligera/cremosa que hace la rutina rápida y agradable.",
+      "Ideal para quien busca un aroma tierno sin notas intensas."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "En piel muy reactiva o con antecedentes de sensibilidad a fragancias, mejor elegir tu Avena sin perfume.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108012",
+    "nombre": "Avena miel",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma dulce y reconfortante que hace mas agradable la rutina.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "La avena aporta suavidad y sensación de confort tras el baño.",
+      "Espuma cremosa ideal para climas secos o uso nocturno.",
+      "Deja tacto mas flexible cuando se seca sin fricción."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Evitar en personas con alergia a productos de abeja o piel muy reactiva. Haz prueba de parche.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108020",
+    "nombre": "Chocolate",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma gourmand cálido tipo cacao que vuelve el baño reconfortante.",
+      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
+      "Deja tacto mas flexible; buena opción para piel normal a seca.",
+      "Espuma cremosa ideal para rutina nocturna o climas frios.",
+      "Perfil sensorial envolvente sin llegar a empalagar."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Evita en piel muy reactiva y el contorno de ojos, usar max. 2–3 veces/semana.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108022",
+    "nombre": "Coco",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma tropical cremoso que convierte la ducha en un momento reconfortante.",
+      "Base de glicerina: limpieza amable, enjuague fácil, sin sensación pegajosa.",
+      "sensación emoliente que deja el tacto mas flexible tras el secado.",
+      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
+      "Perfil sensorial cálido que acompaña sin volverse invasivo."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita contorno de ojos y haz prueba de parche.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108066",
+    "nombre": "Coco con miel",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma tropical y cálido con toque cremoso–dulce que hace la ducha reconfortante.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma cremosa que deja tacto cómodo al secar.",
+      "sensación emoliente ideal para climas secos o rutina nocturna.",
+      "Perfil sensorial envolvente que acompaña sin empalagar"
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Contiene derivados de abeja y fragancia; puede incluir alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108052",
+    "nombre": "Eucalipto con Bugambilia y Menta",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Sensación fresca y vigorizante: menta + eucalipto para un baño que despeja.",
+      "Astringencia ligera: la piel se siente con menos brillo tras el lavado.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera ideal para rutina diurna o después de actividad.",
+      "Toque floral de bugambilia que suaviza el perfil herbal sin invadir."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Evita contorno de ojos y mucosas. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108069",
+    "nombre": "Frutos rojos",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma frutal jugoso (berries) que hace la ducha alegre y fresca.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que deja tacto cómodo al secar.",
+      "Perfil dulce y vibrante que acompaña sin empalagar.",
+      "Ideal para rutina diurna o climas cálidos."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108070",
+    "nombre": "Jengibre con limón, cúrcuma y canela",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma cítrico–especiado que activa y deja sensación fresca.",
+      "Astringencia ligera: piel con menos brillo tras el lavado.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que acompaña sin empalagar.",
+      "Perfil energizante ideal para la mañana."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "puede contener alergenos aromáticos y compuestos fotosensibilizantes. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108026",
+    "nombre": "Lavanda",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma floral-relajante tipo spa, ideal para rutina nocturna.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que deja tacto cómodo tras el secado.",
+      "Acompaña una sensación de desconexión al final del dia.",
+      "Perfil aromático suave."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Evitar en piel muy reactiva y contorno de ojos. Prueba de parche.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108027",
+    "nombre": "Limón",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Aroma cítrico brillante que deja sensación fresca y limpia al enjuagar.",
+      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera, ideal para rutina diurna en piel normal/mixta.",
+      "Perfil aromático que activa la rutina sin volverse invasivo."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "No recomendado para piel muy reactiva. Evita el contorno de ojos. Haz prueba de parche.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108029",
+    "nombre": "Manzanilla",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Piel sensible"
+    ],
+    "beneficios": [
+      "Sensación de calma y confort tras el baño, pensada para rutinas suaves.",
+      "Base de glicerina: limpieza gentil, enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera para uso diario en piel que se irrita con facilidad.",
+      "Ayuda a disminuir la sensación de tirantez post-ducha.",
+      "Perfil neutro y amable (ideal sin aromas intensos)."
+    ],
+    "tags": [
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Precaución en personas con alergia a Asteraceae. Prueba de parche en piel muy reactiva.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108032",
+    "nombre": "Miel",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma dulce y reconfortante que hace la ducha mas agradable.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Deja tacto mas flexible y sensación de confort tras el secado.",
+      "Espuma cremosa, ideal para rutina nocturna o climas secos.",
+      "Perfil sensorial cálido que acompaña sin volverse invasivo."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Evitar en personas con alergia a productos de abeja y en piel muy reactiva. Se recomienda prueba de parche. No usar en contorno de ojos.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108058",
+    "nombre": "Neem con caléndula",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Sensación purificante y de limpieza profunda al enjuagar (neem).",
+      "Piel con menos brillo y apariencia mas uniforme con uso constante.",
+      "Toque de confort gracias a la caléndula, para una rutina mas amable.",
+      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera pensada para piel mixta/grasa en rutina diurna."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108036",
+    "nombre": "Rosa de Castilla",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma floral elegante que convierte la ducha en un momento relajante.",
+      "Base de glicerina: limpieza suave y enjuague fácil, sin sensación pegajosa.",
+      "Deja tacto cómodo y una sensación de piel fresca al secar.",
+      "Espuma ligera/cremosa ideal para una rutina nocturna tipo spa.",
+      "Perfil aromático sofisticado que acompaña sin invadir."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Fragancia floral; puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108033",
+    "nombre": "Romero",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Aroma herbal fresco que deja sensación limpia y despejada tras el enjuague.",
+      "Astringencia ligera: ayuda a que la piel se sienta menos brillante después del baño.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera, ideal para rutina diurna o post-actividad.",
+      "Perfil aromático que activa sin volverse invasivo"
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos; no recomendado para piel muy reactiva. Evita contorno de ojos y mucosas. Prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
+    "id": "108041",
+    "nombre": "Vainilla",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Aromáticos"
+    ],
+    "beneficios": [
+      "Aroma gourmand suave y reconfortante que envuelve sin empalagar.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma cremosa que deja tacto cómodo tras el secado.",
+      "Ideal para rutina nocturna o climas secos por su perfil cálido.",
+      "opción sensorial relajante para quien busca un baño “tipo postre”."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "Liquido",
+    "tamano": "1000 ml",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Si tu piel es muy reactiva, haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon corporal"
+  },
+  {
     "id": "108043",
     "nombre": "Vitamina E",
-    "img": "assets/images/B_Vitaminae.webp",
+    "img": "assets/images/Img_ndisponible.webp",
     "cats": [
       "Aromáticos"
     ],
@@ -2113,5 +2068,50 @@
     "tamano": "1000 ml",
     "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
     "familia": "Jabon corporal"
+  },
+  {
+    "id": "102078",
+    "nombre": "Cempasuchil",
+    "img": "assets/images/Img_ndisponible.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Aroma floral–herbal inspirado en el cempasuchil que deja una sensación fresca al enjuagar.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera/cremosa que aporta confort en la ducha.",
+      "Perfil vivo y festivo ideal para temporadas especiales o quien disfruta notas botánicas."
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Puede contener alergenos aromáticos. Evita el contorno de ojos. Piel muy reactiva: prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
+  },
+  {
+    "id": "102031",
+    "nombre": "Menta",
+    "img": "assets/images/Menta.webp",
+    "cats": [
+      "Astringente"
+    ],
+    "beneficios": [
+      "Sensación fresca y vigorizante gracias al perfil mentolado; ideal para baño matutino.",
+      "Astringencia ligera: deja la piel con sensación menos brillante tras el lavado.",
+      "Base de glicerina: limpieza amable y enjuague fácil, sin sensación pegajosa.",
+      "Espuma ligera que no satura; buena para climas cálidos o después de actividad.",
+      "Aroma herbal-menta que “despeja” sin volverse invasivo"
+    ],
+    "tags": [
+      "NS",
+      "AL"
+    ],
+    "forma": "solido",
+    "tamano": "100 g",
+    "notaAdvertencia": "Evita rostro/contorno de ojos y mucosas (puede arder). No recomendado para piel muy reactiva. Haz prueba de parche; si irrita, suspende.",
+    "familia": "Jabon solido"
   }
 ]
