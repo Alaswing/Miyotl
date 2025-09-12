@@ -2,7 +2,7 @@
   {
     "id": "102001",
     "nombre": "Abre Caminos",
-    "img": "Assets/Images/Abre_caminos.webp",
+    "img": "assets/images/Abre_caminos.webp",
     "cats": [
       "Aromáticos"
     ],
