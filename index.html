@@ -232,6 +232,29 @@ border-color: #A83477;
   }
 }
 footer{ padding: 16px 0 28px; border-top: 1px solid var(--brand-100); }
+/* ---- Registro (reusa variables y look & feel) ---- */
+.sheet{
+  background:#fff; border:1px solid var(--brand-200); border-radius:18px;
+  padding:16px; max-width:840px; width:100%; box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+.form-grid{
+  display:grid; gap:12px;
+  grid-template-columns: 1fr;
+}
+@media (min-width:760px){
+  .form-grid{ grid-template-columns: repeat(2, 1fr); }
+  .span-2{ grid-column: 1 / span 2; }
+}
+.form-note{ font-size:13px; color:var(--brand-700); }
+.form-title{ margin:0 0 8px; font-size:18px; color:var(--brand-600); }
+.success-box{
+  border:1px solid var(--brand-300); background:var(--brand-50);
+  border-radius:12px; padding:12px; margin-top:12px;
+}
+.badge{
+  display:inline-block; font-size:12px; padding:3px 8px; border-radius:999px;
+  background:#fff; border:1px solid var(--brand-300); color:var(--brand-700);
+}
   </style>
 </head>
 <body>
@@ -240,7 +263,7 @@ footer{ padding: 16px 0 28px; border-top: 1px solid var(--brand-100); }
 <header>
 	<div class="signin-wrap">
 		<a class="btn-signin" href="/signin">Sign in</a>
-		<a class="new-link" href="/registro">Soy nuevo</a>
+		<a class="new-link" href="#" id="open-register">Soy nuevo</a>
 	</div>
   <img class="top-banner"
      src="assets/images/LogolargoMiyotl1.webp"
@@ -307,6 +330,107 @@ footer{ padding: 16px 0 28px; border-top: 1px solid var(--brand-100); }
     </div>
   </div>
 </footer>
+<!-- Modal Registro -->
+<div class="modal" id="reg-modal">
+  <div class="sheet">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+      <h3 class="form-title">Registro de cliente</h3>
+      <button class="btn secondary" id="reg-close">Cerrar</button>
+    </div>
+
+    <form id="reg-form" novalidate>
+      <div class="form-grid">
+        <label>Nombre completo*
+          <input class="input" name="nombre" required placeholder="Nombre y apellidos">
+        </label>
+
+        <label>Teléfono (10 dígitos)*
+          <input class="input" name="telefono" required inputmode="numeric" pattern="\d{10}" placeholder="5512345678">
+        </label>
+
+        <label>Correo electrónico*
+          <input class="input" name="email" type="email" required placeholder="tu@correo.com">
+        </label>
+
+        <label class="span-2">Calle*
+          <input class="input" name="calle" required placeholder="Av. Siempre Viva">
+        </label>
+
+        <label>Número exterior*
+          <input class="input" name="numext" required placeholder="123">
+        </label>
+
+        <label>Número interior (opcional)
+          <input class="input" name="numint" placeholder="Depto / Interior">
+        </label>
+
+        <label>Colonia*
+          <input class="input" name="colonia" required>
+        </label>
+
+        <label>Municipio / Alcaldía*
+          <input class="input" name="municipio" required>
+        </label>
+
+        <label>Estado*
+          <input class="input" name="estado" required>
+        </label>
+
+        <label>Código postal (5 dígitos)*
+          <input class="input" name="cp" required inputmode="numeric" pattern="\d{5}">
+        </label>
+
+        <label class="span-2">Tipo de cliente*
+          <select class="input" name="tipo" id="tipo-cliente" required>
+            <option value="Minorista" selected>Minorista</option>
+            <option value="Concesionario">Concesionario</option>
+            <option value="Mayorista">Mayorista</option>
+            <option value="Distribuidor">Distribuidor</option>
+          </select>
+        </label>
+
+        <!-- Contratos dinámicos -->
+        <div class="span-2" id="contrato-wrap" style="display:none">
+          <div class="form-note" style="margin-bottom:6px">
+            Para <span id="tipo-label" class="badge">—</span> debes leer y aceptar el contrato correspondiente.
+          </div>
+
+          <!-- Cambia estos href a tus PDFs reales -->
+          <div id="contrato-link" class="form-note" style="margin-bottom:8px">
+			<a href="#" target="_blank" rel="noopener" id="contrato-url">Ver contrato</a>
+		</div>
+		<iframe id="contrato-embed" title="Contrato" style="width:100%;height:300px;border:1px solid var(--brand-200);border-radius:10px;display:none"></iframe>
+
+
+          <label style="display:flex;gap:8px;align-items:flex-start">
+            <input type="checkbox" id="chk-contrato">
+            <span>He leído, acepto y autorizo el contrato de <strong id="tipo-strong">—</strong>.</span>
+          </label>
+        </div>
+
+        <label class="span-2" style="display:flex;gap:8px;align-items:flex-start">
+          <input type="checkbox" id="chk-promos">
+          <span>Autorizo recibir promociones y boletines.</span>
+        </label>
+
+        <label class="span-2" style="display:flex;gap:8px;align-items:flex-start">
+          <input type="checkbox" id="chk-priv" required>
+          <span>Acepto las <a href="politicas.html" target="_blank" rel="noopener">Políticas</a> y el <a href="aviso.html" target="_blank" rel="noopener">Aviso de privacidad</a>.*</span>
+        </label>
+      </div>
+
+      <div class="form-note">* Campo obligatorio. El número interior es opcional.</div>
+
+      <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:12px">
+        <button type="button" class="btn secondary" id="reg-clear">Limpiar</button>
+        <button type="submit" class="btn" id="reg-send">Registrarme</button>
+      </div>
+
+      <div id="reg-result" class="success-box" style="display:none"></div>
+    </form>
+  </div>
+</div>
+<!-- /Modal Registro -->
 
 <!-- Modal Cotizador -->
 <div class="modal" id="modal">
@@ -475,6 +599,160 @@ footer{ padding: 16px 0 28px; border-top: 1px solid var(--brand-100); }
     const mailto = `mailto:Miyotlproducts@gmail.com?subject=${subject}&body=${body}` + (cc?`&cc=${encodeURIComponent(cc)}`:'');
     window.location.href = mailto;
   };
+/** ===== Registro (abrir/cerrar, validación, envío) ===== **/
+const REG_MAIL = "Miyotlproducts@gmail.com";
+const APP_SCRIPT_ENDPOINT = "";        // sin uso
+const SAVE_LOCAL_BACKUP = false;       // no guardamos nada en el navegador
+
+const regModal = document.getElementById('reg-modal');
+const openRegBtn = document.getElementById('open-register');
+const closeRegBtn = document.getElementById('reg-close');
+const regForm   = document.getElementById('reg-form');
+
+const tipoSel       = document.getElementById('tipo-cliente');
+const contratoWrap  = document.getElementById('contrato-wrap');
+const contratoUrl   = document.getElementById('contrato-url');
+const contratoChk   = document.getElementById('chk-contrato');
+const tipoBadge     = document.getElementById('tipo-label');
+const tipoStrong    = document.getElementById('tipo-strong');
+const promosChk     = document.getElementById('chk-promos');
+const privChk       = document.getElementById('chk-priv');
+const regClear      = document.getElementById('reg-clear');
+const regResult     = document.getElementById('reg-result');
+
+const CONTRATOS = {
+  "Concesionario": "assets/contracts/contrato-concesionario.pdf",
+  "Mayorista":     "assets/contracts/contrato-mayorista.pdf",
+  "Distribuidor":  "assets/contracts/contrato-distribuidor.pdf"
+};
+
+function openReg(){ regModal.classList.add('open'); }
+function closeReg(){ regModal.classList.remove('open'); }
+// Cerrar modal al hacer clic en el fondo (backdrop)
+regModal.addEventListener('click', (e)=>{
+  if (e.target === regModal) closeReg();
+});
+// Cerrar modal con la tecla ESC
+document.addEventListener('keydown', (e)=>{
+  if (e.key === 'Escape' && regModal.classList.contains('open')) {
+    closeReg();
+  }
+});
+
+if (openRegBtn) openRegBtn.onclick = (e)=>{ e.preventDefault(); openReg(); };
+if (closeRegBtn) closeRegBtn.onclick = (e)=>{ e.preventDefault(); closeReg(); };
+
+// Mostrar/ocultar contrato según tipo elegido
+function refreshContratoUI(){
+  const t = (tipoSel?.value)||'Minorista';
+  const iframe = document.getElementById('contrato-embed');
+  if (t === 'Minorista'){
+    contratoWrap.style.display = 'none';
+    contratoChk.checked = false;
+    if (iframe){ iframe.style.display = 'none'; iframe.removeAttribute('src'); }
+  } else {
+    contratoWrap.style.display = '';
+    tipoBadge.textContent = t;
+    tipoStrong.textContent = t;
+    const url = CONTRATOS[t] || "#";
+    contratoUrl.href = url;
+    if (iframe && url !== "#"){ iframe.src = url; iframe.style.display = 'block'; }
+  }
+}
+
+if (tipoSel){
+  tipoSel.onchange = refreshContratoUI;
+  refreshContratoUI();
+}
+
+// Envío
+regForm?.addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  regResult.style.display = 'none';
+
+  const fd = new FormData(regForm);
+  const data = {
+    nombre:   (fd.get('nombre')||'').trim(),
+    telefono: (fd.get('telefono')||'').trim(),
+    email:    (fd.get('email')||'').trim(),
+    calle:    (fd.get('calle')||'').trim(),
+    numext:   (fd.get('numext')||'').trim(),
+    numint:   (fd.get('numint')||'').trim(),
+    colonia:  (fd.get('colonia')||'').trim(),
+    municipio:(fd.get('municipio')||'').trim(),
+    estado:   (fd.get('estado')||'').trim(),
+    cp:       (fd.get('cp')||'').trim(),
+    tipo:     (fd.get('tipo')||'').trim(),
+    promos:   promosChk.checked ? 'Sí' : 'No',
+    priv:     privChk.checked ? 'Sí' : 'No',
+    ts:       new Date().toISOString()
+  };
+
+  // Validaciones
+  if(!data.nombre||!data.telefono||!data.email||!data.calle||!data.numext||!data.colonia||!data.municipio||!data.estado||!data.cp){
+    alert('Por favor completa todos los campos obligatorios.'); return;
+  }
+  if(!/^\d{10}$/.test(data.telefono)){ alert('Teléfono debe tener 10 dígitos.'); return; }
+  if(!/^\d{5}$/.test(data.cp)){ alert('Código postal debe tener 5 dígitos.'); return; }
+  if(!privChk.checked){ alert('Debes aceptar Políticas y Aviso de privacidad para registrarte.'); return; }
+
+  // Si elige Concesionario/Mayorista/Distribuidor y NO acepta contrato → se registra como Minorista
+  let downgraded = false;
+  if (data.tipo !== 'Minorista' && !contratoChk.checked){
+    downgraded = true;
+    data.tipo = 'Minorista';
+    alert('No aceptaste el contrato. Tu registro se guardará como "Minorista".');
+  }
+
+ // Sin guardado en esta página — Itzel gestiona la base externamente.
+ // (No Apps Script, no localStorage)
+
+  // Enviar correo (mailto)
+  const contratoInfo = (data.tipo==='Minorista' && downgraded)
+
+    ? 'Contrato: No aceptado. Registrado como MINORISTA por política.'
+    : `Contrato: ${data.tipo==='Minorista'?'No aplica':(contratoChk.checked?'Aceptado':'No aceptado')}`;
+
+  const cuerpo =
+`Nuevo registro Miyotl
+
+Nombre: ${data.nombre}
+Teléfono: ${data.telefono}
+Email: ${data.email}
+
+Dirección:
+  Calle: ${data.calle}
+  No. ext: ${data.numext}
+  No. int: ${data.numint||'-'}
+  Colonia: ${data.colonia}
+  Municipio/Alcaldía: ${data.municipio}
+  Estado: ${data.estado}
+  C.P.: ${data.cp}
+
+Tipo de cliente: ${data.tipo}
+${contratoInfo}
+Promociones/boletines: ${data.promos}
+Acepta Políticas y Aviso: ${data.priv}
+
+Fecha/Hora: ${new Date().toLocaleString('es-MX')}
+`;
+
+  const subject = encodeURIComponent('Registro — Miyotl');
+  const body = encodeURIComponent(cuerpo);
+  window.location.href = `mailto:${REG_MAIL}?subject=${subject}&body=${body}`;
+
+  // Mensaje de confirmación
+  regResult.style.display = '';
+  regResult.innerHTML = `<strong>¡Listo! 🎉</strong> Tu registro se envió. En <strong>24 horas</strong> recibirás la confirmación por correo electrónico.`;
+});
+
+// Limpiar formulario
+regClear?.addEventListener('click', ()=>{
+  regForm.reset();
+  promosChk.checked = false;
+  contratoChk.checked = false;
+  refreshContratoUI();
+});
 
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
